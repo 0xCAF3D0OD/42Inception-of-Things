@@ -1,0 +1,1921 @@
+00:00:01.842280 VirtualBox VM 7.1.2 r164945 darwin.amd64 (Sep 26 2024 16:53:34) release log
+00:00:01.842282 Log opened 2024-10-16T08:52:22.576531000Z
+00:00:01.842283 Build Type: release
+00:00:01.842299 OS Product: Darwin
+00:00:01.842308 OS Release: 23.6.0
+00:00:01.842316 OS Version: Darwin Kernel Version 23.6.0: Mon Jul 29 21:13:00 PDT 2024; root:xnu-10063.141.2~1/RELEASE_X86_64
+00:00:01.842461 DMI Product Name: MacBookPro15,2
+00:00:01.842530 DMI Product Version: 1.0
+00:00:01.842531 Firmware type: failed - VERR_NOT_SUPPORTED
+00:00:01.842563 Host RAM: 16384MB (16.0GB) total, 6164MB (6.0GB) available
+00:00:01.842566 Executable: /Applications/VirtualBox.app/Contents/MacOS/VirtualBoxVM
+00:00:01.842567 Process ID: 42063
+00:00:01.842567 Package type: DARWIN_64BITS_GENERIC
+00:00:01.844254 Installed Extension Packs:
+00:00:01.844279   None installed!
+00:00:01.845607 Console: Machine state changed to 'Starting'
+00:00:01.845960 GUI: Qt version: 6.5.3
+00:00:01.845986 GUI: HID LEDs sync is enabled
+00:00:01.854478 Guest architecture: x86
+00:00:01.854739 Guest OS type: 'Debian_64'
+00:00:01.858696 fHMForced=true - No raw-mode support in this build!
+00:00:01.858739 Using execution engine 1
+00:00:01.875718 File system of '/Users/dino/Documents/42Inception-of-Things/Inception-of-things/debian-12.7.0-amd64-netinst.iso' (DVD) is apfs
+00:00:01.884995 File system of '/Users/dino/Documents/42Inception-of-Things/Inception-of-things/Inception-of-things.vdi' is apfs
+00:00:01.910354 Shared Clipboard: Service loaded
+00:00:01.910407 Shared Clipboard: Mode: Off
+00:00:01.910655 Shared Clipboard: Service running in normal mode
+00:00:01.913413 Drag and drop service loaded
+00:00:01.913453 Drag and drop mode: Off
+00:00:01.924097 Audio: Detected default audio driver type is 'CoreAudio'
+00:00:01.947996 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:01.956387 ************************* CFGM dump *************************
+00:00:01.956396 [/] (level 0)
+00:00:01.956403   CpuExecutionCap   <integer> = 0x0000000000000064 (100)
+00:00:01.956407   EnablePAE         <integer> = 0x0000000000000001 (1)
+00:00:01.956409   HMEnabled         <integer> = 0x0000000000000001 (1)
+00:00:01.956410   MemBalloonSize    <integer> = 0x0000000000000000 (0, 0 B)
+00:00:01.956418   Name              <string>  = "Inception-of-things" (cb=20)
+00:00:01.956420   NumCPUs           <integer> = 0x0000000000000001 (1)
+00:00:01.956422   PageFusionAllowed <integer> = 0x0000000000000000 (0)
+00:00:01.956423   RamHoleSize       <integer> = 0x0000000020000000 (536 870 912, 512.0 MiB)
+00:00:01.956426   RamSize           <integer> = 0x0000000041a00000 (1 101 004 800, 1.0 GiB)
+00:00:01.956428   TimerMillies      <integer> = 0x000000000000000a (10)
+00:00:01.956430   UUID              <bytes>   = "34 cc b6 14 23 ac 50 4a a1 26 e0 c6 4e b8 cc 57" (cb=16)
+00:00:01.956436 
+00:00:01.956437 [/CPUM/] (level 1)
+00:00:01.956439   Enable64bit        <integer> = 0x0000000000000001 (1)
+00:00:01.956440   GuestCpuName       <string>  = "host" (cb=5)
+00:00:01.956442   NestedHWVirt       <integer> = 0x0000000000000000 (0)
+00:00:01.956443   PortableCpuIdLevel <integer> = 0x0000000000000000 (0)
+00:00:01.956444   SpecCtrl           <integer> = 0x0000000000000000 (0)
+00:00:01.956446 
+00:00:01.956446 [/CPUM/IsaExts/] (level 2)
+00:00:01.956448 
+00:00:01.956449 [/DBGC/] (level 1)
+00:00:01.956451   GlobalInitScript <string>  = "/Users/dino/Library/VirtualBox/dbgc-init" (cb=41)
+00:00:01.956452   HistoryFile      <string>  = "/Users/dino/Library/VirtualBox/dbgc-history" (cb=44)
+00:00:01.956453   LocalInitScript  <string>  = "/Users/dino/Documents/42Inception-of-Things/Inception-of-things/dbgc-init" (cb=74)
+00:00:01.956454 
+00:00:01.956455 [/DBGF/] (level 1)
+00:00:01.956457   Path <string>  = "/Users/dino/Documents/42Inception-of-Things/Inception-of-things/debug/;/Users/dino/Documents/42Inception-of-Things/Inception-of-things/;cache*/Users/dino/Documents/42Inception-of-Things/Inception-of-things/dbgcache/;/Users/dino/" (cb=229)
+00:00:01.956458 
+00:00:01.956459 [/Devices/] (level 1)
+00:00:01.956460 
+00:00:01.956461 [/Devices/3c501/] (level 2)
+00:00:01.956463 
+00:00:01.956463 [/Devices/8237A/] (level 2)
+00:00:01.956465 
+00:00:01.956465 [/Devices/8237A/0/] (level 3)
+00:00:01.956467   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956468 
+00:00:01.956469 [/Devices/GIMDev/] (level 2)
+00:00:01.956471 
+00:00:01.956471 [/Devices/GIMDev/0/] (level 3)
+00:00:01.956473   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956474 
+00:00:01.956474 [/Devices/VMMDev/] (level 2)
+00:00:01.956476 
+00:00:01.956476 [/Devices/VMMDev/0/] (level 3)
+00:00:01.956479   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956480   PCIDeviceNo   <integer> = 0x0000000000000004 (4)
+00:00:01.956481   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956482   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956484 
+00:00:01.956484 [/Devices/VMMDev/0/Config/] (level 4)
+00:00:01.956487   GuestCoreDumpDir <string>  = "/Users/dino/Documents/42Inception-of-Things/Inception-of-things/Snapshots" (cb=74)
+00:00:01.956488 
+00:00:01.956488 [/Devices/VMMDev/0/LUN#0/] (level 4)
+00:00:01.956490   Driver <string>  = "HGCM" (cb=5)
+00:00:01.956492 
+00:00:01.956492 [/Devices/VMMDev/0/LUN#0/Config/] (level 5)
+00:00:01.956494 
+00:00:01.956495 [/Devices/VMMDev/0/LUN#999/] (level 4)
+00:00:01.956497   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.956498 
+00:00:01.956498 [/Devices/VMMDev/0/LUN#999/Config/] (level 5)
+00:00:01.956501   First                <integer> = 0x0000000000000000 (0)
+00:00:01.956503   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:01.956504   Last                 <integer> = 0x0000000000000000 (0)
+00:00:01.956506   iLedSet              <integer> = 0x0000000000000006 (6)
+00:00:01.956508 
+00:00:01.956508 [/Devices/acpi/] (level 2)
+00:00:01.956510 
+00:00:01.956510 [/Devices/acpi/0/] (level 3)
+00:00:01.956512   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956514   PCIDeviceNo   <integer> = 0x0000000000000007 (7)
+00:00:01.956515   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956516   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956518 
+00:00:01.956518 [/Devices/acpi/0/Config/] (level 4)
+00:00:01.956521   CpuHotPlug          <integer> = 0x0000000000000000 (0)
+00:00:01.956530   FdcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:01.956531   HostBusPciAddress   <integer> = 0x0000000000000000 (0)
+00:00:01.956532   HpetEnabled         <integer> = 0x0000000000000000 (0)
+00:00:01.956534   IOAPIC              <integer> = 0x0000000000000001 (1)
+00:00:01.956536   IocPciAddress       <integer> = 0x0000000000010000 (65 536)
+00:00:01.956537   NumCPUs             <integer> = 0x0000000000000001 (1)
+00:00:01.956539   Parallel0IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:01.956540   Parallel0Irq        <integer> = 0x0000000000000000 (0)
+00:00:01.956542   Parallel1IoPortBase <integer> = 0x0000000000000000 (0)
+00:00:01.956543   Parallel1Irq        <integer> = 0x0000000000000000 (0)
+00:00:01.956544   Serial0IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:01.956546   Serial0Irq          <integer> = 0x0000000000000000 (0)
+00:00:01.956547   Serial1IoPortBase   <integer> = 0x0000000000000000 (0)
+00:00:01.956548   Serial1Irq          <integer> = 0x0000000000000000 (0)
+00:00:01.956550   ShowCpu             <integer> = 0x0000000000000001 (1)
+00:00:01.956552   ShowRtc             <integer> = 0x0000000000000000 (0)
+00:00:01.956553   SmcEnabled          <integer> = 0x0000000000000000 (0)
+00:00:01.956555 
+00:00:01.956555 [/Devices/acpi/0/LUN#0/] (level 4)
+00:00:01.956557   Driver <string>  = "ACPIHost" (cb=9)
+00:00:01.956559 
+00:00:01.956559 [/Devices/acpi/0/LUN#0/Config/] (level 5)
+00:00:01.956562 
+00:00:01.956562 [/Devices/ahci/] (level 2)
+00:00:01.956564 
+00:00:01.956564 [/Devices/ahci/0/] (level 3)
+00:00:01.956567   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956568   PCIDeviceNo   <integer> = 0x000000000000000d (13)
+00:00:01.956570   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956571   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956572 
+00:00:01.956573 [/Devices/ahci/0/Config/] (level 4)
+00:00:01.956575   Bootable  <integer> = 0x0000000000000001 (1)
+00:00:01.956576   PortCount <integer> = 0x0000000000000001 (1)
+00:00:01.956577 
+00:00:01.956578 [/Devices/ahci/0/Config/Port0/] (level 5)
+00:00:01.956580   Hotpluggable <integer> = 0x0000000000000000 (0)
+00:00:01.956581 
+00:00:01.956582 [/Devices/ahci/0/LUN#0/] (level 4)
+00:00:01.956584   Driver <string>  = "VD" (cb=3)
+00:00:01.956585 
+00:00:01.956585 [/Devices/ahci/0/LUN#0/Config/] (level 5)
+00:00:01.956588   BlockCache <integer> = 0x0000000000000001 (1)
+00:00:01.956589   Format     <string>  = "VDI" (cb=4)
+00:00:01.956590   Mountable  <integer> = 0x0000000000000000 (0)
+00:00:01.956592   Path       <string>  = "/Users/dino/Documents/42Inception-of-Things/Inception-of-things/Inception-of-things.vdi" (cb=88)
+00:00:01.956593   Type       <string>  = "HardDisk" (cb=9)
+00:00:01.956595   UseNewIo   <integer> = 0x0000000000000001 (1)
+00:00:01.956596 
+00:00:01.956596 [/Devices/ahci/0/LUN#0/Config/VDConfig/] (level 6)
+00:00:01.956599   AllocationBlockSize <string>  = "1048576" (cb=8)
+00:00:01.956600 
+00:00:01.956601 [/Devices/ahci/0/LUN#999/] (level 4)
+00:00:01.956603   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.956604 
+00:00:01.956604 [/Devices/ahci/0/LUN#999/Config/] (level 5)
+00:00:01.956607   DeviceInstance       <string>  = "ahci/0" (cb=7)
+00:00:01.956608   First                <integer> = 0x0000000000000000 (0)
+00:00:01.956610   HasMediumAttachments <integer> = 0x0000000000000001 (1)
+00:00:01.956611   Last                 <integer> = 0x0000000000000000 (0)
+00:00:01.956613   iLedSet              <integer> = 0x0000000000000004 (4)
+00:00:01.956615 
+00:00:01.956616 [/Devices/apic/] (level 2)
+00:00:01.956617 
+00:00:01.956618 [/Devices/apic/0/] (level 3)
+00:00:01.956620   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956621 
+00:00:01.956621 [/Devices/apic/0/Config/] (level 4)
+00:00:01.956623   IOAPIC  <integer> = 0x0000000000000001 (1)
+00:00:01.956625   Mode    <integer> = 0x0000000000000003 (3)
+00:00:01.956626   NumCPUs <integer> = 0x0000000000000001 (1)
+00:00:01.956626 
+00:00:01.956627 [/Devices/dp8390/] (level 2)
+00:00:01.956628 
+00:00:01.956634 [/Devices/e1000/] (level 2)
+00:00:01.956635 
+00:00:01.956636 [/Devices/e1000/0/] (level 3)
+00:00:01.956637   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956639   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:01.956640   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956641   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956643 
+00:00:01.956643 [/Devices/e1000/0/Config/] (level 4)
+00:00:01.956646   AdapterType    <integer> = 0x0000000000000000 (0)
+00:00:01.956647   CableConnected <integer> = 0x0000000000000001 (1)
+00:00:01.956648   LineSpeed      <integer> = 0x0000000000000000 (0)
+00:00:01.956649   MAC            <bytes>   = "08 00 27 9e 36 0a" (cb=6)
+00:00:01.956653 
+00:00:01.956653 [/Devices/e1000/0/LUN#0/] (level 4)
+00:00:01.956655   Driver <string>  = "NAT" (cb=4)
+00:00:01.956657 
+00:00:01.956657 [/Devices/e1000/0/LUN#0/Config/] (level 5)
+00:00:01.956660   AliasMode          <integer> = 0x0000000000000000 (0)
+00:00:01.956661   BootFile           <string>  = "Inception-of-things.pxe" (cb=24)
+00:00:01.956663   DNSProxy           <integer> = 0x0000000000000000 (0)
+00:00:01.956665   LocalhostReachable <integer> = 0x0000000000000000 (0)
+00:00:01.956666   Network            <string>  = "10.0.2.0/24" (cb=12)
+00:00:01.956667   PassDomain         <integer> = 0x0000000000000001 (1)
+00:00:01.956669   TFTPPrefix         <string>  = "/Users/dino/Library/VirtualBox/TFTP" (cb=36)
+00:00:01.956671   UseHostResolver    <integer> = 0x0000000000000000 (0)
+00:00:01.956672 
+00:00:01.956672 [/Devices/e1000/0/LUN#999/] (level 4)
+00:00:01.956674   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.956676 
+00:00:01.956676 [/Devices/e1000/0/LUN#999/Config/] (level 5)
+00:00:01.956679   First                <integer> = 0x0000000000000000 (0)
+00:00:01.956681   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:01.956682   Last                 <integer> = 0x0000000000000000 (0)
+00:00:01.956684   iLedSet              <integer> = 0x0000000000000005 (5)
+00:00:01.956686 
+00:00:01.956686 [/Devices/i8254/] (level 2)
+00:00:01.956688 
+00:00:01.956688 [/Devices/i8254/0/] (level 3)
+00:00:01.956690 
+00:00:01.956691 [/Devices/i8254/0/Config/] (level 4)
+00:00:01.956693 
+00:00:01.956693 [/Devices/i8259/] (level 2)
+00:00:01.956695 
+00:00:01.956695 [/Devices/i8259/0/] (level 3)
+00:00:01.956697   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956698 
+00:00:01.956699 [/Devices/i8259/0/Config/] (level 4)
+00:00:01.956701 
+00:00:01.956701 [/Devices/ichac97/] (level 2)
+00:00:01.956703 
+00:00:01.956703 [/Devices/ichac97/0/] (level 3)
+00:00:01.956705   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956707   PCIDeviceNo   <integer> = 0x0000000000000005 (5)
+00:00:01.956708   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956709   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956711 
+00:00:01.956711 [/Devices/ichac97/0/AudioConfig/] (level 4)
+00:00:01.956713 
+00:00:01.956714 [/Devices/ichac97/0/Config/] (level 4)
+00:00:01.956716   Codec        <string>  = "AD1980" (cb=7)
+00:00:01.956717   DebugEnabled <integer> = 0x0000000000000000 (0)
+00:00:01.956718 
+00:00:01.956719 [/Devices/ichac97/0/LUN#0/] (level 4)
+00:00:01.956721   Driver <string>  = "AUDIO" (cb=6)
+00:00:01.956722 
+00:00:01.956723 [/Devices/ichac97/0/LUN#0/AttachedDriver/] (level 5)
+00:00:01.956725   Driver <string>  = "CoreAudio" (cb=10)
+00:00:01.956726 
+00:00:01.956727 [/Devices/ichac97/0/LUN#0/AttachedDriver/Config/] (level 6)
+00:00:01.956730 
+00:00:01.956730 [/Devices/ichac97/0/LUN#0/Config/] (level 5)
+00:00:01.956733   DriverName    <string>  = "CoreAudio" (cb=10)
+00:00:01.956734   InputEnabled  <integer> = 0x0000000000000000 (0)
+00:00:01.956735   OutputEnabled <integer> = 0x0000000000000001 (1)
+00:00:01.956736 
+00:00:01.956737 [/Devices/ichac97/0/LUN#1/] (level 4)
+00:00:01.956739   Driver <string>  = "AUDIO" (cb=6)
+00:00:01.956740 
+00:00:01.956740 [/Devices/ichac97/0/LUN#2/] (level 4)
+00:00:01.956742   Driver <string>  = "AUDIO" (cb=6)
+00:00:01.956743 
+00:00:01.956744 [/Devices/ioapic/] (level 2)
+00:00:01.956745 
+00:00:01.956750 [/Devices/ioapic/0/] (level 3)
+00:00:01.956752   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956753 
+00:00:01.956754 [/Devices/ioapic/0/Config/] (level 4)
+00:00:01.956756   NumCPUs <integer> = 0x0000000000000001 (1)
+00:00:01.956757 
+00:00:01.956758 [/Devices/mc146818/] (level 2)
+00:00:01.956759 
+00:00:01.956760 [/Devices/mc146818/0/] (level 3)
+00:00:01.956762 
+00:00:01.956762 [/Devices/mc146818/0/Config/] (level 4)
+00:00:01.956764   UseUTC <integer> = 0x0000000000000001 (1)
+00:00:01.956765 
+00:00:01.956766 [/Devices/parallel/] (level 2)
+00:00:01.956767 
+00:00:01.956768 [/Devices/pcarch/] (level 2)
+00:00:01.956769 
+00:00:01.956770 [/Devices/pcarch/0/] (level 3)
+00:00:01.956772   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956773 
+00:00:01.956773 [/Devices/pcarch/0/Config/] (level 4)
+00:00:01.956775 
+00:00:01.956776 [/Devices/pcbios/] (level 2)
+00:00:01.956778 
+00:00:01.956778 [/Devices/pcbios/0/] (level 3)
+00:00:01.956780   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956781 
+00:00:01.956781 [/Devices/pcbios/0/Config/] (level 4)
+00:00:01.956784   APIC               <integer> = 0x0000000000000001 (1)
+00:00:01.956786   BootDevice0        <string>  = "FLOPPY" (cb=7)
+00:00:01.956787   BootDevice1        <string>  = "DVD" (cb=4)
+00:00:01.956789   BootDevice2        <string>  = "IDE" (cb=4)
+00:00:01.956790   BootDevice3        <string>  = "NONE" (cb=5)
+00:00:01.956792   DmiSystemSerial    <string>  = "VirtualBox-<DmiSystemUuid>" (cb=27)
+00:00:01.956793   FloppyDevice       <string>  = "i82078" (cb=7)
+00:00:01.956794   HardDiskDevice     <string>  = "piix3ide" (cb=9)
+00:00:01.956795   IOAPIC             <integer> = 0x0000000000000001 (1)
+00:00:01.956797   McfgBase           <integer> = 0x0000000000000000 (0)
+00:00:01.956799   McfgLength         <integer> = 0x0000000000000000 (0)
+00:00:01.956800   NumCPUs            <integer> = 0x0000000000000001 (1)
+00:00:01.956802   PXEDebug           <integer> = 0x0000000000000000 (0)
+00:00:01.956804   SataHardDiskDevice <string>  = "ahci" (cb=5)
+00:00:01.956805   SataLUN1           <integer> = 0x0000000000000000 (0)
+00:00:01.956806   UUID               <bytes>   = "34 cc b6 14 23 ac 50 4a a1 26 e0 c6 4e b8 cc 57" (cb=16)
+00:00:01.956811   UuidLe             <integer> = 0x0000000000000001 (1)
+00:00:01.956813 
+00:00:01.956813 [/Devices/pcbios/0/Config/NetBoot/] (level 5)
+00:00:01.956816 
+00:00:01.956816 [/Devices/pcbios/0/Config/NetBoot/0/] (level 6)
+00:00:01.956819   NIC           <integer> = 0x0000000000000000 (0)
+00:00:01.956820   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956821   PCIDeviceNo   <integer> = 0x0000000000000003 (3)
+00:00:01.956823   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956824 
+00:00:01.956824 [/Devices/pci/] (level 2)
+00:00:01.956826 
+00:00:01.956826 [/Devices/pci/0/] (level 3)
+00:00:01.956828   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956829 
+00:00:01.956830 [/Devices/pci/0/Config/] (level 4)
+00:00:01.956832   IOAPIC <integer> = 0x0000000000000001 (1)
+00:00:01.956833 
+00:00:01.956833 [/Devices/pcibridge/] (level 2)
+00:00:01.956835 
+00:00:01.956835 [/Devices/pckbd/] (level 2)
+00:00:01.956837 
+00:00:01.956837 [/Devices/pckbd/0/] (level 3)
+00:00:01.956839   Trusted <integer> = 0x0000000000000001 (1)
+00:00:01.956840 
+00:00:01.956841 [/Devices/pckbd/0/Config/] (level 4)
+00:00:01.956843 
+00:00:01.956843 [/Devices/pckbd/0/LUN#0/] (level 4)
+00:00:01.956846   Driver <string>  = "KeyboardQueue" (cb=14)
+00:00:01.956847 
+00:00:01.956847 [/Devices/pckbd/0/LUN#0/AttachedDriver/] (level 5)
+00:00:01.956850   Driver <string>  = "MainKeyboard" (cb=13)
+00:00:01.956851 
+00:00:01.956851 [/Devices/pckbd/0/LUN#0/Config/] (level 5)
+00:00:01.956854   QueueSize <integer> = 0x0000000000000040 (64, 64 B)
+00:00:01.956856 
+00:00:01.956856 [/Devices/pckbd/0/LUN#1/] (level 4)
+00:00:01.956858   Driver <string>  = "MouseQueue" (cb=11)
+00:00:01.956859 
+00:00:01.956860 [/Devices/pckbd/0/LUN#1/AttachedDriver/] (level 5)
+00:00:01.956862   Driver <string>  = "MainMouse" (cb=10)
+00:00:01.956863 
+00:00:01.956863 [/Devices/pckbd/0/LUN#1/Config/] (level 5)
+00:00:01.956870   QueueSize <integer> = 0x0000000000000080 (128, 128 B)
+00:00:01.956872 
+00:00:01.956872 [/Devices/pcnet/] (level 2)
+00:00:01.956874 
+00:00:01.956874 [/Devices/piix3ide/] (level 2)
+00:00:01.956876 
+00:00:01.956876 [/Devices/piix3ide/0/] (level 3)
+00:00:01.956879   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956880   PCIDeviceNo   <integer> = 0x0000000000000001 (1)
+00:00:01.956881   PCIFunctionNo <integer> = 0x0000000000000001 (1)
+00:00:01.956882   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956884 
+00:00:01.956884 [/Devices/piix3ide/0/Config/] (level 4)
+00:00:01.956887   Type <string>  = "PIIX4" (cb=6)
+00:00:01.956888 
+00:00:01.956888 [/Devices/piix3ide/0/LUN#1/] (level 4)
+00:00:01.956890   Driver <string>  = "VD" (cb=3)
+00:00:01.956891 
+00:00:01.956892 [/Devices/piix3ide/0/LUN#1/Config/] (level 5)
+00:00:01.956894   Format    <string>  = "RAW" (cb=4)
+00:00:01.956895   Mountable <integer> = 0x0000000000000001 (1)
+00:00:01.956896   Path      <string>  = "/Users/dino/Documents/42Inception-of-Things/Inception-of-things/debian-12.7.0-amd64-netinst.iso" (cb=96)
+00:00:01.956897   ReadOnly  <integer> = 0x0000000000000001 (1)
+00:00:01.956899   Type      <string>  = "DVD" (cb=4)
+00:00:01.956900 
+00:00:01.956900 [/Devices/piix3ide/0/LUN#999/] (level 4)
+00:00:01.956902   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.956903 
+00:00:01.956904 [/Devices/piix3ide/0/LUN#999/Config/] (level 5)
+00:00:01.956906   DeviceInstance       <string>  = "piix3ide/0" (cb=11)
+00:00:01.956907   First                <integer> = 0x0000000000000000 (0)
+00:00:01.956909   HasMediumAttachments <integer> = 0x0000000000000001 (1)
+00:00:01.956910   Last                 <integer> = 0x0000000000000003 (3)
+00:00:01.956912   iLedSet              <integer> = 0x0000000000000003 (3)
+00:00:01.956913 
+00:00:01.956914 [/Devices/serial/] (level 2)
+00:00:01.956916 
+00:00:01.956916 [/Devices/usb-ehci/] (level 2)
+00:00:01.956918 
+00:00:01.956918 [/Devices/usb-ehci/0/] (level 3)
+00:00:01.956920   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956922   PCIDeviceNo   <integer> = 0x000000000000000b (11)
+00:00:01.956923   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956924   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956926 
+00:00:01.956926 [/Devices/usb-ehci/0/Config/] (level 4)
+00:00:01.956928 
+00:00:01.956928 [/Devices/usb-ehci/0/LUN#0/] (level 4)
+00:00:01.956930   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:01.956932 
+00:00:01.956932 [/Devices/usb-ehci/0/LUN#0/Config/] (level 5)
+00:00:01.956935 
+00:00:01.956935 [/Devices/usb-ehci/0/LUN#999/] (level 4)
+00:00:01.956937   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.956938 
+00:00:01.956939 [/Devices/usb-ehci/0/LUN#999/Config/] (level 5)
+00:00:01.956941   First                <integer> = 0x0000000000000000 (0)
+00:00:01.956943   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:01.956944   Last                 <integer> = 0x0000000000000000 (0)
+00:00:01.956946   iLedSet              <integer> = 0x0000000000000002 (2)
+00:00:01.956947 
+00:00:01.956948 [/Devices/usb-ohci/] (level 2)
+00:00:01.956949 
+00:00:01.956950 [/Devices/usb-ohci/0/] (level 3)
+00:00:01.956952   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956953   PCIDeviceNo   <integer> = 0x0000000000000006 (6)
+00:00:01.956955   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956956   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956957 
+00:00:01.956958 [/Devices/usb-ohci/0/Config/] (level 4)
+00:00:01.956960 
+00:00:01.956960 [/Devices/usb-ohci/0/LUN#0/] (level 4)
+00:00:01.956962   Driver <string>  = "VUSBRootHub" (cb=12)
+00:00:01.956963 
+00:00:01.956964 [/Devices/usb-ohci/0/LUN#0/Config/] (level 5)
+00:00:01.956966 
+00:00:01.956966 [/Devices/usb-ohci/0/LUN#999/] (level 4)
+00:00:01.956968   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.956969 
+00:00:01.956970 [/Devices/usb-ohci/0/LUN#999/Config/] (level 5)
+00:00:01.956972   First                <integer> = 0x0000000000000000 (0)
+00:00:01.956974   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:01.956979   Last                 <integer> = 0x0000000000000000 (0)
+00:00:01.956981   iLedSet              <integer> = 0x0000000000000001 (1)
+00:00:01.956983 
+00:00:01.956983 [/Devices/vga/] (level 2)
+00:00:01.956985 
+00:00:01.956986 [/Devices/vga/0/] (level 3)
+00:00:01.956987   PCIBusNo      <integer> = 0x0000000000000000 (0)
+00:00:01.956989   PCIDeviceNo   <integer> = 0x0000000000000002 (2)
+00:00:01.956990   PCIFunctionNo <integer> = 0x0000000000000000 (0)
+00:00:01.956991   Trusted       <integer> = 0x0000000000000001 (1)
+00:00:01.956992 
+00:00:01.956993 [/Devices/vga/0/Config/] (level 4)
+00:00:01.956997   3DEnabled             <integer> = 0x0000000000000000 (0)
+00:00:01.956998   CustomVideoModes      <integer> = 0x0000000000000000 (0)
+00:00:01.957000   FadeIn                <integer> = 0x0000000000000001 (1)
+00:00:01.957001   FadeOut               <integer> = 0x0000000000000001 (1)
+00:00:01.957003   HeightReduction       <integer> = 0x0000000000000000 (0)
+00:00:01.957005   LogoFile              <string>  = "" (cb=1)
+00:00:01.957006   LogoTime              <integer> = 0x0000000000000000 (0)
+00:00:01.957008   MonitorCount          <integer> = 0x0000000000000001 (1)
+00:00:01.957009   ShowBootMenu          <integer> = 0x0000000000000002 (2)
+00:00:01.957011   VMSVGA3dEnabled       <integer> = 0x0000000000000000 (0)
+00:00:01.957012   VMSVGAEnabled         <integer> = 0x0000000000000001 (1)
+00:00:01.957013   VMSVGAPciBarLayout    <integer> = 0x0000000000000001 (1)
+00:00:01.957015   VMSVGAPciId           <integer> = 0x0000000000000001 (1)
+00:00:01.957016   VRamSize              <integer> = 0x0000000001000000 (16 777 216, 16.0 MiB)
+00:00:01.957019   VmSvga3               <integer> = 0x0000000000000000 (0)
+00:00:01.957021   VmSvgaExposeLegacyVga <integer> = 0x0000000000000001 (1)
+00:00:01.957022 
+00:00:01.957023 [/Devices/vga/0/LUN#0/] (level 4)
+00:00:01.957025   Driver <string>  = "MainDisplay" (cb=12)
+00:00:01.957026 
+00:00:01.957026 [/Devices/vga/0/LUN#0/Config/] (level 5)
+00:00:01.957029 
+00:00:01.957029 [/Devices/vga/0/LUN#999/] (level 4)
+00:00:01.957031   Driver <string>  = "MainStatus" (cb=11)
+00:00:01.957032 
+00:00:01.957033 [/Devices/vga/0/LUN#999/Config/] (level 5)
+00:00:01.957035   First                <integer> = 0x0000000000000000 (0)
+00:00:01.957037   HasMediumAttachments <integer> = 0x0000000000000000 (0)
+00:00:01.957038   Last                 <integer> = 0x0000000000000000 (0)
+00:00:01.957040   iLedSet              <integer> = 0x0000000000000000 (0)
+00:00:01.957042 
+00:00:01.957042 [/Devices/virtio-net/] (level 2)
+00:00:01.957044 
+00:00:01.957044 [/EM/] (level 1)
+00:00:01.957046   TripleFaultReset <integer> = 0x0000000000000000 (0)
+00:00:01.957047 
+00:00:01.957048 [/GCM/] (level 1)
+00:00:01.957049   MesaVmsvgaDrv <integer> = 0x0000000000000001 (1)
+00:00:01.957050 
+00:00:01.957050 [/GIM/] (level 1)
+00:00:01.957051   Provider <string>  = "KVM" (cb=4)
+00:00:01.957052 
+00:00:01.957053 [/HM/] (level 1)
+00:00:01.957055   64bitEnabled            <integer> = 0x0000000000000001 (1)
+00:00:01.957057   EnableLargePages        <integer> = 0x0000000000000001 (1)
+00:00:01.957058   EnableNestedPaging      <integer> = 0x0000000000000001 (1)
+00:00:01.957060   EnableUX                <integer> = 0x0000000000000001 (1)
+00:00:01.957062   EnableVPID              <integer> = 0x0000000000000001 (1)
+00:00:01.957063   Exclusive               <integer> = 0x0000000000000000 (0)
+00:00:01.957065   HMForced                <integer> = 0x0000000000000001 (1)
+00:00:01.957067   IBPBOnVMEntry           <integer> = 0x0000000000000000 (0)
+00:00:01.957069   IBPBOnVMExit            <integer> = 0x0000000000000000 (0)
+00:00:01.957070   L1DFlushOnSched         <integer> = 0x0000000000000001 (1)
+00:00:01.957072   L1DFlushOnVMEntry       <integer> = 0x0000000000000000 (0)
+00:00:01.957073   LovelyMesaDrvWorkaround <integer> = 0x0000000000000001 (1)
+00:00:01.957074   MDSClearOnSched         <integer> = 0x0000000000000001 (1)
+00:00:01.957075   MDSClearOnVMEntry       <integer> = 0x0000000000000000 (0)
+00:00:01.957076   SpecCtrlByHost          <integer> = 0x0000000000000000 (0)
+00:00:01.957082   SvmVirtVmsaveVmload     <integer> = 0x0000000000000000 (0)
+00:00:01.957083   UseNEMInstead           <integer> = 0x0000000000000000 (0)
+00:00:01.957085 
+00:00:01.957086 [/MM/] (level 1)
+00:00:01.957087   CanUseLargerHeap <integer> = 0x0000000000000000 (0)
+00:00:01.957088 
+00:00:01.957089 [/NEM/] (level 1)
+00:00:01.957090   Allow64BitGuests        <integer> = 0x0000000000000001 (1)
+00:00:01.957092   LovelyMesaDrvWorkaround <integer> = 0x0000000000000001 (1)
+00:00:01.957093 
+00:00:01.957093 [/PDM/] (level 1)
+00:00:01.957095 
+00:00:01.957095 [/PDM/AsyncCompletion/] (level 2)
+00:00:01.957097 
+00:00:01.957098 [/PDM/AsyncCompletion/File/] (level 3)
+00:00:01.957100 
+00:00:01.957100 [/PDM/AsyncCompletion/File/BwGroups/] (level 4)
+00:00:01.957102 
+00:00:01.957103 [/PDM/BlkCache/] (level 2)
+00:00:01.957105   CacheSize <integer> = 0x0000000000500000 (5 242 880, 5.0 MiB)
+00:00:01.957107 
+00:00:01.957107 [/PDM/Devices/] (level 2)
+00:00:01.957109 
+00:00:01.957109 [/PDM/Drivers/] (level 2)
+00:00:01.957111 
+00:00:01.957112 [/PDM/Drivers/VBoxC/] (level 3)
+00:00:01.957113   Path <string>  = "/Applications/VirtualBox.app/Contents/MacOS/components/VBoxC" (cb=61)
+00:00:01.957115 
+00:00:01.957115 [/PDM/NetworkShaper/] (level 2)
+00:00:01.957117 
+00:00:01.957117 [/PDM/NetworkShaper/BwGroups/] (level 3)
+00:00:01.957119 
+00:00:01.957119 [/TM/] (level 1)
+00:00:01.957121   UTCOffset <integer> = 0x0000000000000000 (0)
+00:00:01.957122 
+00:00:01.957122 [/USB/] (level 1)
+00:00:01.957124 
+00:00:01.957124 [/USB/HidMouse/] (level 2)
+00:00:01.957126 
+00:00:01.957126 [/USB/HidMouse/0/] (level 3)
+00:00:01.957128 
+00:00:01.957129 [/USB/HidMouse/0/Config/] (level 4)
+00:00:01.957131   Mode <string>  = "absolute" (cb=9)
+00:00:01.957132 
+00:00:01.957133 [/USB/HidMouse/0/LUN#0/] (level 4)
+00:00:01.957135   Driver <string>  = "MouseQueue" (cb=11)
+00:00:01.957136 
+00:00:01.957136 [/USB/HidMouse/0/LUN#0/AttachedDriver/] (level 5)
+00:00:01.957138   Driver <string>  = "MainMouse" (cb=10)
+00:00:01.957140 
+00:00:01.957140 [/USB/HidMouse/0/LUN#0/Config/] (level 5)
+00:00:01.957142   QueueSize <integer> = 0x0000000000000080 (128, 128 B)
+00:00:01.957144 
+00:00:01.957144 [/USB/USBProxy/] (level 2)
+00:00:01.957146 
+00:00:01.957146 [/USB/USBProxy/GlobalConfig/] (level 3)
+00:00:01.957148 
+00:00:01.957149 ********************* End of CFGM dump **********************
+00:00:01.957246 HM: HMR3Init: Attempting fall back to NEM: Driverless mode
+00:00:01.957972 NEM:  info: Found optional import Hypervisor!hv_capability.
+00:00:01.958002 NEM:  info: Found optional import Hypervisor!hv_vm_space_create.
+00:00:01.958010 NEM:  info: Found optional import Hypervisor!hv_vm_space_destroy.
+00:00:01.958018 NEM:  info: Found optional import Hypervisor!hv_vm_map_space.
+00:00:01.958024 NEM:  info: Found optional import Hypervisor!hv_vm_unmap_space.
+00:00:01.958031 NEM:  info: Found optional import Hypervisor!hv_vm_protect_space.
+00:00:01.958039 NEM:  info: Found optional import Hypervisor!hv_vcpu_set_space.
+00:00:01.958050 NEM:  info: Found optional import Hypervisor!hv_vcpu_run_until.
+00:00:01.958056 NEM:  info: Found optional import Hypervisor!hv_vcpu_get_exec_time.
+00:00:01.958064 NEM:  info: Found optional import Hypervisor!hv_vmx_vcpu_read_shadow_vmcs.
+00:00:01.958075 NEM:  info: Found optional import Hypervisor!hv_vmx_vcpu_write_shadow_vmcs.
+00:00:01.958085 NEM:  info: Found optional import Hypervisor!hv_vmx_vcpu_set_shadow_access.
+00:00:01.958092 NEM:  info: Found optional import Hypervisor!hv_vmx_get_msr_info.
+00:00:01.958097 NEM:  info: Found optional import Hypervisor!hv_vmx_vcpu_get_cap_write_vmcs.
+00:00:01.958103 NEM:  info: Found optional import Hypervisor!hv_vcpu_enable_managed_msr.
+00:00:01.958109 NEM:  info: Found optional import Hypervisor!hv_vcpu_set_msr_access.
+00:00:01.958124 NEM: cMachTimePerNs=1 (TimeInfo.numer=1 TimeInfo.denom=1)
+00:00:01.959819 NEM: Successfully created ASID: 1
+00:00:01.959889 PGM: Enabling NEM mode
+00:00:01.959898 NEM:
+00:00:01.959898 NEM: NEMR3Init: Turtle execution mode is active!
+00:00:01.959899 NEM: Note! VirtualBox is not able to run at its full potential in this execution mode.
+00:00:01.959899 NEM:
+00:00:01.959921 CPUM: No hardware-virtualization capability detected
+00:00:01.960373 CPUM: fXStateHostMask=0x7; initial: 0x7; host XCR0=0x7
+00:00:01.961294 CPUM: Matched host CPU INTEL 0x6/0x8e/0xa Intel_Core7_CoffeeLake with CPU DB entry 'Intel Core i7-6700K' (INTEL 0x6/0x5e/0x3 Intel_Core7_Skylake)
+00:00:01.961378 CPUM: MXCSR_MASK=0xffff (host: 0xffff)
+00:00:01.961398 CPUM: Failed to query microcode revision. rc=VERR_SUP_DRIVERLESS
+00:00:01.961421 CPUM: Changing leaf 13[0]: EBX=0x340 -> 0x340, ECX=0x440 -> 0x340
+00:00:01.961464 CPUM: MSR/CPUID reconciliation insert: 0x0000010b IA32_FLUSH_CMD
+00:00:01.961473 CPUM: MSR/CPUID reconciliation insert: 0x0000010a IA32_ARCH_CAPABILITIES
+00:00:01.961481 CPUM: MSR fudge: 0x00000001 IA32_P5_MC_TYPE
+00:00:01.961487 CPUM: MSR fudge: 0x00000017 IA32_PLATFORM_ID
+00:00:01.961492 CPUM: MSR fudge: 0x0000001b IA32_APIC_BASE
+00:00:01.961497 CPUM: MSR fudge: 0x0000008b BIOS_SIGN
+00:00:01.961502 CPUM: MSR fudge: 0x000000fe IA32_MTRRCAP
+00:00:01.961507 CPUM: MSR fudge: 0x00000179 IA32_MCG_CAP
+00:00:01.961512 CPUM: MSR fudge: 0x0000017a IA32_MCG_STATUS
+00:00:01.961517 CPUM: MSR fudge: 0x000001a0 IA32_MISC_ENABLE
+00:00:01.961522 CPUM: MSR fudge: 0x000001d9 IA32_DEBUGCTL
+00:00:01.961527 CPUM: MSR fudge: 0x000001db P6_LAST_BRANCH_FROM_IP
+00:00:01.961532 CPUM: MSR fudge: 0x000001dc P6_LAST_BRANCH_TO_IP
+00:00:01.961537 CPUM: MSR fudge: 0x000001dd P6_LAST_INT_FROM_IP
+00:00:01.961542 CPUM: MSR fudge: 0x000001de P6_LAST_INT_TO_IP
+00:00:01.961547 CPUM: MSR fudge: 0x00000277 IA32_PAT
+00:00:01.961552 CPUM: MSR fudge: 0x000002ff IA32_MTRR_DEF_TYPE
+00:00:01.961557 CPUM: MSR fudge: 0x00000400 IA32_MCi_CTL_STATUS_ADDR_MISC
+00:00:01.961563 CPUM: MSR fudge: 0xc0000103 AMD64_TSC_AUX
+00:00:01.961569 CPUM: MSR fudge: 0x00000122 IA32_TSX_CTRL
+00:00:01.961602 CPUM: SetGuestCpuIdFeature: Enabled SYSENTER/EXIT
+00:00:01.961635 CPUM: SetGuestCpuIdFeature: Enabled SYSCALL/RET
+00:00:01.961641 CPUM: SetGuestCpuIdFeature: Enabled PAE
+00:00:01.961646 CPUM: SetGuestCpuIdFeature: Enabled LAHF/SAHF
+00:00:01.961651 CPUM: SetGuestCpuIdFeature: Enabled NX
+00:00:01.961656 CPUM: SetGuestCpuIdFeature: Enabled LONG MODE
+00:00:01.961661 CPUM: Enabled MTRR read-write support
+00:00:01.961667 CPUM: Enabled fixed-range MTRRs and 16 (virtualized) variable-range MTRRs
+00:00:01.961890 NEM:    VMX_VMCS32_CTRL_PIN_EXEC = (allowed_0=0x00003f allowed_1=0x00007f)
+00:00:01.961903 NEM:        Bit 00 = MUST be set
+00:00:01.961909 NEM:        Bit 01 = MUST be set
+00:00:01.961914 NEM:        Bit 02 = MUST be set
+00:00:01.961918 NEM:        Bit 03 = MUST be set
+00:00:01.961923 NEM:        Bit 04 = MUST be set
+00:00:01.961928 NEM:        Bit 05 = MUST be set
+00:00:01.961933 NEM:        Bit 06 = Can be set or not be set
+00:00:01.961938 NEM:        Bit 07 = Must NOT be set
+00:00:01.961942 NEM:        Bit 08 = Must NOT be set
+00:00:01.961947 NEM:        Bit 09 = Must NOT be set
+00:00:01.961952 NEM:        Bit 10 = Must NOT be set
+00:00:01.961956 NEM:        Bit 11 = Must NOT be set
+00:00:01.961961 NEM:        Bit 12 = Must NOT be set
+00:00:01.961966 NEM:        Bit 13 = Must NOT be set
+00:00:01.961970 NEM:        Bit 14 = Must NOT be set
+00:00:01.961975 NEM:        Bit 15 = Must NOT be set
+00:00:01.961980 NEM:        Bit 16 = Must NOT be set
+00:00:01.961984 NEM:        Bit 17 = Must NOT be set
+00:00:01.961989 NEM:        Bit 18 = Must NOT be set
+00:00:01.961994 NEM:        Bit 19 = Must NOT be set
+00:00:01.961998 NEM:        Bit 20 = Must NOT be set
+00:00:01.962003 NEM:        Bit 21 = Must NOT be set
+00:00:01.962008 NEM:        Bit 22 = Must NOT be set
+00:00:01.962012 NEM:        Bit 23 = Must NOT be set
+00:00:01.962017 NEM:        Bit 24 = Must NOT be set
+00:00:01.962021 NEM:        Bit 25 = Must NOT be set
+00:00:01.962026 NEM:        Bit 26 = Must NOT be set
+00:00:01.962031 NEM:        Bit 27 = Must NOT be set
+00:00:01.962036 NEM:        Bit 28 = Must NOT be set
+00:00:01.962040 NEM:        Bit 29 = Must NOT be set
+00:00:01.962045 NEM:        Bit 30 = Must NOT be set
+00:00:01.962050 NEM:        Bit 31 = Must NOT be set
+00:00:01.962055 NEM:    VMX_VMCS32_CTRL_PROC_EXEC = (allowed_0=0x9500697a allowed_1=0xfdf9fffe)
+00:00:01.962061 NEM:        Bit 00 = Must NOT be set
+00:00:01.962066 NEM:        Bit 01 = MUST be set
+00:00:01.962071 NEM:        Bit 02 = Can be set or not be set
+00:00:01.962076 NEM:        Bit 03 = MUST be set
+00:00:01.962080 NEM:        Bit 04 = MUST be set
+00:00:01.962085 NEM:        Bit 05 = MUST be set
+00:00:01.962090 NEM:        Bit 06 = MUST be set
+00:00:01.962095 NEM:        Bit 07 = Can be set or not be set
+00:00:01.962099 NEM:        Bit 08 = MUST be set
+00:00:01.962104 NEM:        Bit 09 = Can be set or not be set
+00:00:01.962109 NEM:        Bit 10 = Can be set or not be set
+00:00:01.962113 NEM:        Bit 11 = MUST be set
+00:00:01.962118 NEM:        Bit 12 = Can be set or not be set
+00:00:01.962123 NEM:        Bit 13 = MUST be set
+00:00:01.962128 NEM:        Bit 14 = MUST be set
+00:00:01.962133 NEM:        Bit 15 = Can be set or not be set
+00:00:01.962137 NEM:        Bit 16 = Can be set or not be set
+00:00:01.962142 NEM:        Bit 17 = Must NOT be set
+00:00:01.962147 NEM:        Bit 18 = Must NOT be set
+00:00:01.962152 NEM:        Bit 19 = Can be set or not be set
+00:00:01.962156 NEM:        Bit 20 = Can be set or not be set
+00:00:01.962161 NEM:        Bit 21 = Can be set or not be set
+00:00:01.962166 NEM:        Bit 22 = Can be set or not be set
+00:00:01.962170 NEM:        Bit 23 = Can be set or not be set
+00:00:01.962175 NEM:        Bit 24 = MUST be set
+00:00:01.962180 NEM:        Bit 25 = Must NOT be set
+00:00:01.962184 NEM:        Bit 26 = MUST be set
+00:00:01.962189 NEM:        Bit 27 = Can be set or not be set
+00:00:01.962194 NEM:        Bit 28 = MUST be set
+00:00:01.962199 NEM:        Bit 29 = Can be set or not be set
+00:00:01.962203 NEM:        Bit 30 = Can be set or not be set
+00:00:01.962283 NEM:        Bit 31 = MUST be set
+00:00:01.962292 NEM:    VMX_VMCS32_CTRL_EXCEPTION_BITMAP = (allowed_0=0x000000 allowed_1=0xffffffff)
+00:00:01.962299 NEM:        Bit 00 = Can be set or not be set
+00:00:01.962304 NEM:        Bit 01 = Can be set or not be set
+00:00:01.962309 NEM:        Bit 02 = Can be set or not be set
+00:00:01.962313 NEM:        Bit 03 = Can be set or not be set
+00:00:01.962318 NEM:        Bit 04 = Can be set or not be set
+00:00:01.962323 NEM:        Bit 05 = Can be set or not be set
+00:00:01.962328 NEM:        Bit 06 = Can be set or not be set
+00:00:01.962332 NEM:        Bit 07 = Can be set or not be set
+00:00:01.962337 NEM:        Bit 08 = Can be set or not be set
+00:00:01.962342 NEM:        Bit 09 = Can be set or not be set
+00:00:01.962346 NEM:        Bit 10 = Can be set or not be set
+00:00:01.962351 NEM:        Bit 11 = Can be set or not be set
+00:00:01.962356 NEM:        Bit 12 = Can be set or not be set
+00:00:01.962361 NEM:        Bit 13 = Can be set or not be set
+00:00:01.962365 NEM:        Bit 14 = Can be set or not be set
+00:00:01.962370 NEM:        Bit 15 = Can be set or not be set
+00:00:01.962375 NEM:        Bit 16 = Can be set or not be set
+00:00:01.962379 NEM:        Bit 17 = Can be set or not be set
+00:00:01.962384 NEM:        Bit 18 = Can be set or not be set
+00:00:01.962389 NEM:        Bit 19 = Can be set or not be set
+00:00:01.962394 NEM:        Bit 20 = Can be set or not be set
+00:00:01.962398 NEM:        Bit 21 = Can be set or not be set
+00:00:01.962403 NEM:        Bit 22 = Can be set or not be set
+00:00:01.962408 NEM:        Bit 23 = Can be set or not be set
+00:00:01.962413 NEM:        Bit 24 = Can be set or not be set
+00:00:01.962418 NEM:        Bit 25 = Can be set or not be set
+00:00:01.962422 NEM:        Bit 26 = Can be set or not be set
+00:00:01.962427 NEM:        Bit 27 = Can be set or not be set
+00:00:01.962432 NEM:        Bit 28 = Can be set or not be set
+00:00:01.962436 NEM:        Bit 29 = Can be set or not be set
+00:00:01.962441 NEM:        Bit 30 = Can be set or not be set
+00:00:01.962446 NEM:        Bit 31 = Can be set or not be set
+00:00:01.962451 NEM:    VMX_VMCS32_CTRL_EXIT = (allowed_0=0x236fff allowed_1=0x737fff)
+00:00:01.962457 NEM:        Bit 00 = MUST be set
+00:00:01.962461 NEM:        Bit 01 = MUST be set
+00:00:01.962466 NEM:        Bit 02 = MUST be set
+00:00:01.962471 NEM:        Bit 03 = MUST be set
+00:00:01.962475 NEM:        Bit 04 = MUST be set
+00:00:01.962480 NEM:        Bit 05 = MUST be set
+00:00:01.962485 NEM:        Bit 06 = MUST be set
+00:00:01.962489 NEM:        Bit 07 = MUST be set
+00:00:01.962494 NEM:        Bit 08 = MUST be set
+00:00:01.962499 NEM:        Bit 09 = MUST be set
+00:00:01.962503 NEM:        Bit 10 = MUST be set
+00:00:01.962508 NEM:        Bit 11 = MUST be set
+00:00:01.962513 NEM:        Bit 12 = Can be set or not be set
+00:00:01.962517 NEM:        Bit 13 = MUST be set
+00:00:01.962522 NEM:        Bit 14 = MUST be set
+00:00:01.962527 NEM:        Bit 15 = Must NOT be set
+00:00:01.962531 NEM:        Bit 16 = MUST be set
+00:00:01.962536 NEM:        Bit 17 = MUST be set
+00:00:01.962541 NEM:        Bit 18 = Must NOT be set
+00:00:01.962545 NEM:        Bit 19 = Must NOT be set
+00:00:01.962550 NEM:        Bit 20 = Can be set or not be set
+00:00:01.962555 NEM:        Bit 21 = MUST be set
+00:00:01.962559 NEM:        Bit 22 = Can be set or not be set
+00:00:01.962564 NEM:        Bit 23 = Must NOT be set
+00:00:01.962569 NEM:        Bit 24 = Must NOT be set
+00:00:01.962573 NEM:        Bit 25 = Must NOT be set
+00:00:01.962578 NEM:        Bit 26 = Must NOT be set
+00:00:01.962583 NEM:        Bit 27 = Must NOT be set
+00:00:01.962587 NEM:        Bit 28 = Must NOT be set
+00:00:01.962592 NEM:        Bit 29 = Must NOT be set
+00:00:01.962597 NEM:        Bit 30 = Must NOT be set
+00:00:01.962602 NEM:        Bit 31 = Must NOT be set
+00:00:01.962607 NEM:    VMX_VMCS32_CTRL_ENTRY = (allowed_0=0x0091ff allowed_1=0x00b3ff)
+00:00:01.962612 NEM:        Bit 00 = MUST be set
+00:00:01.962617 NEM:        Bit 01 = MUST be set
+00:00:01.962622 NEM:        Bit 02 = MUST be set
+00:00:01.962641 NEM:        Bit 03 = MUST be set
+00:00:01.962646 NEM:        Bit 04 = MUST be set
+00:00:01.962651 NEM:        Bit 05 = MUST be set
+00:00:01.962655 NEM:        Bit 06 = MUST be set
+00:00:01.962660 NEM:        Bit 07 = MUST be set
+00:00:01.962665 NEM:        Bit 08 = MUST be set
+00:00:01.962669 NEM:        Bit 09 = Can be set or not be set
+00:00:01.962674 NEM:        Bit 10 = Must NOT be set
+00:00:01.962679 NEM:        Bit 11 = Must NOT be set
+00:00:01.962683 NEM:        Bit 12 = MUST be set
+00:00:01.962689 NEM:        Bit 13 = Can be set or not be set
+00:00:01.962697 NEM:        Bit 14 = Must NOT be set
+00:00:01.962705 NEM:        Bit 15 = MUST be set
+00:00:01.962712 NEM:        Bit 16 = Must NOT be set
+00:00:01.962717 NEM:        Bit 17 = Must NOT be set
+00:00:01.962722 NEM:        Bit 18 = Must NOT be set
+00:00:01.962727 NEM:        Bit 19 = Must NOT be set
+00:00:01.962732 NEM:        Bit 20 = Must NOT be set
+00:00:01.962736 NEM:        Bit 21 = Must NOT be set
+00:00:01.962743 NEM:        Bit 22 = Must NOT be set
+00:00:01.962752 NEM:        Bit 23 = Must NOT be set
+00:00:01.962760 NEM:        Bit 24 = Must NOT be set
+00:00:01.962768 NEM:        Bit 25 = Must NOT be set
+00:00:01.962775 NEM:        Bit 26 = Must NOT be set
+00:00:01.962783 NEM:        Bit 27 = Must NOT be set
+00:00:01.962791 NEM:        Bit 28 = Must NOT be set
+00:00:01.962799 NEM:        Bit 29 = Must NOT be set
+00:00:01.962807 NEM:        Bit 30 = Must NOT be set
+00:00:01.962815 NEM:        Bit 31 = Must NOT be set
+00:00:01.962824 NEM:    VMX_VMCS32_CTRL_PROC_EXEC2 = (allowed_0=0x0000a2 allowed_1=0x511cef)
+00:00:01.962834 NEM:        Bit 00 = Can be set or not be set
+00:00:01.962842 NEM:        Bit 01 = MUST be set
+00:00:01.962850 NEM:        Bit 02 = Can be set or not be set
+00:00:01.962858 NEM:        Bit 03 = Can be set or not be set
+00:00:01.962866 NEM:        Bit 04 = Must NOT be set
+00:00:01.962873 NEM:        Bit 05 = MUST be set
+00:00:01.962881 NEM:        Bit 06 = Can be set or not be set
+00:00:01.962889 NEM:        Bit 07 = MUST be set
+00:00:01.962896 NEM:        Bit 08 = Must NOT be set
+00:00:01.962905 NEM:        Bit 09 = Must NOT be set
+00:00:01.962913 NEM:        Bit 10 = Can be set or not be set
+00:00:01.962920 NEM:        Bit 11 = Can be set or not be set
+00:00:01.962928 NEM:        Bit 12 = Can be set or not be set
+00:00:01.962936 NEM:        Bit 13 = Must NOT be set
+00:00:01.962944 NEM:        Bit 14 = Must NOT be set
+00:00:01.962951 NEM:        Bit 15 = Must NOT be set
+00:00:01.962959 NEM:        Bit 16 = Can be set or not be set
+00:00:01.962967 NEM:        Bit 17 = Must NOT be set
+00:00:01.962975 NEM:        Bit 18 = Must NOT be set
+00:00:01.962982 NEM:        Bit 19 = Must NOT be set
+00:00:01.962990 NEM:        Bit 20 = Can be set or not be set
+00:00:01.962998 NEM:        Bit 21 = Must NOT be set
+00:00:01.963005 NEM:        Bit 22 = Can be set or not be set
+00:00:01.963013 NEM:        Bit 23 = Must NOT be set
+00:00:01.963020 NEM:        Bit 24 = Must NOT be set
+00:00:01.963028 NEM:        Bit 25 = Must NOT be set
+00:00:01.963036 NEM:        Bit 26 = Must NOT be set
+00:00:01.963044 NEM:        Bit 27 = Must NOT be set
+00:00:01.963051 NEM:        Bit 28 = Must NOT be set
+00:00:01.963056 NEM:        Bit 29 = Must NOT be set
+00:00:01.963061 NEM:        Bit 30 = Must NOT be set
+00:00:01.963065 NEM:        Bit 31 = Must NOT be set
+00:00:01.963071 NEM:    VMX_VMCS32_CTRL_PLE_GAP = (allowed_0=0x000000 allowed_1=0xffffffff)
+00:00:01.963077 NEM:        Bit 00 = Can be set or not be set
+00:00:01.963081 NEM:        Bit 01 = Can be set or not be set
+00:00:01.963086 NEM:        Bit 02 = Can be set or not be set
+00:00:01.963091 NEM:        Bit 03 = Can be set or not be set
+00:00:01.963096 NEM:        Bit 04 = Can be set or not be set
+00:00:01.963100 NEM:        Bit 05 = Can be set or not be set
+00:00:01.963105 NEM:        Bit 06 = Can be set or not be set
+00:00:01.963110 NEM:        Bit 07 = Can be set or not be set
+00:00:01.963114 NEM:        Bit 08 = Can be set or not be set
+00:00:01.963119 NEM:        Bit 09 = Can be set or not be set
+00:00:01.963139 NEM:        Bit 10 = Can be set or not be set
+00:00:01.963144 NEM:        Bit 11 = Can be set or not be set
+00:00:01.963149 NEM:        Bit 12 = Can be set or not be set
+00:00:01.963154 NEM:        Bit 13 = Can be set or not be set
+00:00:01.963159 NEM:        Bit 14 = Can be set or not be set
+00:00:01.963163 NEM:        Bit 15 = Can be set or not be set
+00:00:01.963168 NEM:        Bit 16 = Can be set or not be set
+00:00:01.963172 NEM:        Bit 17 = Can be set or not be set
+00:00:01.963177 NEM:        Bit 18 = Can be set or not be set
+00:00:01.963182 NEM:        Bit 19 = Can be set or not be set
+00:00:01.963186 NEM:        Bit 20 = Can be set or not be set
+00:00:01.963193 NEM:        Bit 21 = Can be set or not be set
+00:00:01.963201 NEM:        Bit 22 = Can be set or not be set
+00:00:01.963208 NEM:        Bit 23 = Can be set or not be set
+00:00:01.963213 NEM:        Bit 24 = Can be set or not be set
+00:00:01.963218 NEM:        Bit 25 = Can be set or not be set
+00:00:01.963223 NEM:        Bit 26 = Can be set or not be set
+00:00:01.963227 NEM:        Bit 27 = Can be set or not be set
+00:00:01.963233 NEM:        Bit 28 = Can be set or not be set
+00:00:01.963240 NEM:        Bit 29 = Can be set or not be set
+00:00:01.963248 NEM:        Bit 30 = Can be set or not be set
+00:00:01.963255 NEM:        Bit 31 = Can be set or not be set
+00:00:01.963264 NEM:    VMX_VMCS32_CTRL_PLE_WINDOW = (allowed_0=0x000000 allowed_1=0xffffffff)
+00:00:01.963273 NEM:        Bit 00 = Can be set or not be set
+00:00:01.963281 NEM:        Bit 01 = Can be set or not be set
+00:00:01.963289 NEM:        Bit 02 = Can be set or not be set
+00:00:01.963297 NEM:        Bit 03 = Can be set or not be set
+00:00:01.963305 NEM:        Bit 04 = Can be set or not be set
+00:00:01.963312 NEM:        Bit 05 = Can be set or not be set
+00:00:01.963320 NEM:        Bit 06 = Can be set or not be set
+00:00:01.963328 NEM:        Bit 07 = Can be set or not be set
+00:00:01.963336 NEM:        Bit 08 = Can be set or not be set
+00:00:01.963343 NEM:        Bit 09 = Can be set or not be set
+00:00:01.963351 NEM:        Bit 10 = Can be set or not be set
+00:00:01.963359 NEM:        Bit 11 = Can be set or not be set
+00:00:01.963366 NEM:        Bit 12 = Can be set or not be set
+00:00:01.963375 NEM:        Bit 13 = Can be set or not be set
+00:00:01.963383 NEM:        Bit 14 = Can be set or not be set
+00:00:01.963391 NEM:        Bit 15 = Can be set or not be set
+00:00:01.963398 NEM:        Bit 16 = Can be set or not be set
+00:00:01.963406 NEM:        Bit 17 = Can be set or not be set
+00:00:01.963414 NEM:        Bit 18 = Can be set or not be set
+00:00:01.963422 NEM:        Bit 19 = Can be set or not be set
+00:00:01.963429 NEM:        Bit 20 = Can be set or not be set
+00:00:01.963437 NEM:        Bit 21 = Can be set or not be set
+00:00:01.963445 NEM:        Bit 22 = Can be set or not be set
+00:00:01.963453 NEM:        Bit 23 = Can be set or not be set
+00:00:01.963461 NEM:        Bit 24 = Can be set or not be set
+00:00:01.963468 NEM:        Bit 25 = Can be set or not be set
+00:00:01.963476 NEM:        Bit 26 = Can be set or not be set
+00:00:01.963484 NEM:        Bit 27 = Can be set or not be set
+00:00:01.963491 NEM:        Bit 28 = Can be set or not be set
+00:00:01.963499 NEM:        Bit 29 = Can be set or not be set
+00:00:01.963507 NEM:        Bit 30 = Can be set or not be set
+00:00:01.963512 NEM:        Bit 31 = Can be set or not be set
+00:00:01.963518 NEM:    VMX_VMCS64_CTRL_TSC_OFFSET_FULL = (allowed_0=0xffffffffffffffff allowed_1=0x00000000000000)
+00:00:01.963525 NEM:        Bit 00 = UNDEFINED (AppleHV error)!
+00:00:01.963529 NEM:        Bit 01 = UNDEFINED (AppleHV error)!
+00:00:01.963534 NEM:        Bit 02 = UNDEFINED (AppleHV error)!
+00:00:01.963539 NEM:        Bit 03 = UNDEFINED (AppleHV error)!
+00:00:01.963543 NEM:        Bit 04 = UNDEFINED (AppleHV error)!
+00:00:01.963548 NEM:        Bit 05 = UNDEFINED (AppleHV error)!
+00:00:01.963553 NEM:        Bit 06 = UNDEFINED (AppleHV error)!
+00:00:01.963559 NEM:        Bit 07 = UNDEFINED (AppleHV error)!
+00:00:01.963565 NEM:        Bit 08 = UNDEFINED (AppleHV error)!
+00:00:01.963584 NEM:        Bit 09 = UNDEFINED (AppleHV error)!
+00:00:01.963589 NEM:        Bit 10 = UNDEFINED (AppleHV error)!
+00:00:01.963594 NEM:        Bit 11 = UNDEFINED (AppleHV error)!
+00:00:01.963598 NEM:        Bit 12 = UNDEFINED (AppleHV error)!
+00:00:01.963603 NEM:        Bit 13 = UNDEFINED (AppleHV error)!
+00:00:01.963608 NEM:        Bit 14 = UNDEFINED (AppleHV error)!
+00:00:01.963612 NEM:        Bit 15 = UNDEFINED (AppleHV error)!
+00:00:01.963618 NEM:        Bit 16 = UNDEFINED (AppleHV error)!
+00:00:01.963625 NEM:        Bit 17 = UNDEFINED (AppleHV error)!
+00:00:01.963631 NEM:        Bit 18 = UNDEFINED (AppleHV error)!
+00:00:01.963636 NEM:        Bit 19 = UNDEFINED (AppleHV error)!
+00:00:01.963643 NEM:        Bit 20 = UNDEFINED (AppleHV error)!
+00:00:01.963647 NEM:        Bit 21 = UNDEFINED (AppleHV error)!
+00:00:01.963652 NEM:        Bit 22 = UNDEFINED (AppleHV error)!
+00:00:01.963657 NEM:        Bit 23 = UNDEFINED (AppleHV error)!
+00:00:01.963661 NEM:        Bit 24 = UNDEFINED (AppleHV error)!
+00:00:01.963666 NEM:        Bit 25 = UNDEFINED (AppleHV error)!
+00:00:01.963670 NEM:        Bit 26 = UNDEFINED (AppleHV error)!
+00:00:01.963675 NEM:        Bit 27 = UNDEFINED (AppleHV error)!
+00:00:01.963681 NEM:        Bit 28 = UNDEFINED (AppleHV error)!
+00:00:01.963686 NEM:        Bit 29 = UNDEFINED (AppleHV error)!
+00:00:01.963692 NEM:        Bit 30 = UNDEFINED (AppleHV error)!
+00:00:01.963697 NEM:        Bit 31 = UNDEFINED (AppleHV error)!
+00:00:01.963701 NEM:        Bit 32 = UNDEFINED (AppleHV error)!
+00:00:01.963706 NEM:        Bit 33 = UNDEFINED (AppleHV error)!
+00:00:01.963711 NEM:        Bit 34 = UNDEFINED (AppleHV error)!
+00:00:01.963719 NEM:        Bit 35 = UNDEFINED (AppleHV error)!
+00:00:01.963726 NEM:        Bit 36 = UNDEFINED (AppleHV error)!
+00:00:01.963734 NEM:        Bit 37 = UNDEFINED (AppleHV error)!
+00:00:01.963739 NEM:        Bit 38 = UNDEFINED (AppleHV error)!
+00:00:01.963743 NEM:        Bit 39 = UNDEFINED (AppleHV error)!
+00:00:01.963750 NEM:        Bit 40 = UNDEFINED (AppleHV error)!
+00:00:01.963758 NEM:        Bit 41 = UNDEFINED (AppleHV error)!
+00:00:01.963765 NEM:        Bit 42 = UNDEFINED (AppleHV error)!
+00:00:01.963773 NEM:        Bit 43 = UNDEFINED (AppleHV error)!
+00:00:01.963781 NEM:        Bit 44 = UNDEFINED (AppleHV error)!
+00:00:01.963788 NEM:        Bit 45 = UNDEFINED (AppleHV error)!
+00:00:01.963796 NEM:        Bit 46 = UNDEFINED (AppleHV error)!
+00:00:01.963804 NEM:        Bit 47 = UNDEFINED (AppleHV error)!
+00:00:01.963811 NEM:        Bit 48 = UNDEFINED (AppleHV error)!
+00:00:01.963819 NEM:        Bit 49 = UNDEFINED (AppleHV error)!
+00:00:01.963826 NEM:        Bit 50 = UNDEFINED (AppleHV error)!
+00:00:01.963834 NEM:        Bit 51 = UNDEFINED (AppleHV error)!
+00:00:01.963842 NEM:        Bit 52 = UNDEFINED (AppleHV error)!
+00:00:01.963849 NEM:        Bit 53 = UNDEFINED (AppleHV error)!
+00:00:01.963857 NEM:        Bit 54 = UNDEFINED (AppleHV error)!
+00:00:01.963864 NEM:        Bit 55 = UNDEFINED (AppleHV error)!
+00:00:01.963872 NEM:        Bit 56 = UNDEFINED (AppleHV error)!
+00:00:01.963880 NEM:        Bit 57 = UNDEFINED (AppleHV error)!
+00:00:01.963887 NEM:        Bit 58 = UNDEFINED (AppleHV error)!
+00:00:01.963895 NEM:        Bit 59 = UNDEFINED (AppleHV error)!
+00:00:01.963903 NEM:        Bit 60 = UNDEFINED (AppleHV error)!
+00:00:01.963910 NEM:        Bit 61 = UNDEFINED (AppleHV error)!
+00:00:01.963918 NEM:        Bit 62 = UNDEFINED (AppleHV error)!
+00:00:01.963926 NEM:        Bit 63 = UNDEFINED (AppleHV error)!
+00:00:01.963935 NEM:    VMX_VMCS64_GUEST_DEBUGCTL_FULL = (allowed_0=0xffffffffffffffff allowed_1=0x00000000001803)
+00:00:01.963944 NEM:        Bit 00 = MUST be set
+00:00:01.963952 NEM:        Bit 01 = MUST be set
+00:00:01.963960 NEM:        Bit 02 = UNDEFINED (AppleHV error)!
+00:00:01.963968 NEM:        Bit 03 = UNDEFINED (AppleHV error)!
+00:00:01.963975 NEM:        Bit 04 = UNDEFINED (AppleHV error)!
+00:00:01.963983 NEM:        Bit 05 = UNDEFINED (AppleHV error)!
+00:00:01.963991 NEM:        Bit 06 = UNDEFINED (AppleHV error)!
+00:00:01.964018 NEM:        Bit 07 = UNDEFINED (AppleHV error)!
+00:00:01.964026 NEM:        Bit 08 = UNDEFINED (AppleHV error)!
+00:00:01.964033 NEM:        Bit 09 = UNDEFINED (AppleHV error)!
+00:00:01.964038 NEM:        Bit 10 = UNDEFINED (AppleHV error)!
+00:00:01.964043 NEM:        Bit 11 = MUST be set
+00:00:01.964048 NEM:        Bit 12 = MUST be set
+00:00:01.964053 NEM:        Bit 13 = UNDEFINED (AppleHV error)!
+00:00:01.964057 NEM:        Bit 14 = UNDEFINED (AppleHV error)!
+00:00:01.964062 NEM:        Bit 15 = UNDEFINED (AppleHV error)!
+00:00:01.964066 NEM:        Bit 16 = UNDEFINED (AppleHV error)!
+00:00:01.964071 NEM:        Bit 17 = UNDEFINED (AppleHV error)!
+00:00:01.964076 NEM:        Bit 18 = UNDEFINED (AppleHV error)!
+00:00:01.964080 NEM:        Bit 19 = UNDEFINED (AppleHV error)!
+00:00:01.964085 NEM:        Bit 20 = UNDEFINED (AppleHV error)!
+00:00:01.964090 NEM:        Bit 21 = UNDEFINED (AppleHV error)!
+00:00:01.964094 NEM:        Bit 22 = UNDEFINED (AppleHV error)!
+00:00:01.964099 NEM:        Bit 23 = UNDEFINED (AppleHV error)!
+00:00:01.964104 NEM:        Bit 24 = UNDEFINED (AppleHV error)!
+00:00:01.964108 NEM:        Bit 25 = UNDEFINED (AppleHV error)!
+00:00:01.964113 NEM:        Bit 26 = UNDEFINED (AppleHV error)!
+00:00:01.964118 NEM:        Bit 27 = UNDEFINED (AppleHV error)!
+00:00:01.964122 NEM:        Bit 28 = UNDEFINED (AppleHV error)!
+00:00:01.964127 NEM:        Bit 29 = UNDEFINED (AppleHV error)!
+00:00:01.964131 NEM:        Bit 30 = UNDEFINED (AppleHV error)!
+00:00:01.964136 NEM:        Bit 31 = UNDEFINED (AppleHV error)!
+00:00:01.964141 NEM:        Bit 32 = UNDEFINED (AppleHV error)!
+00:00:01.964145 NEM:        Bit 33 = UNDEFINED (AppleHV error)!
+00:00:01.964150 NEM:        Bit 34 = UNDEFINED (AppleHV error)!
+00:00:01.964189 NEM:        Bit 35 = UNDEFINED (AppleHV error)!
+00:00:01.964197 NEM:        Bit 36 = UNDEFINED (AppleHV error)!
+00:00:01.964203 NEM:        Bit 37 = UNDEFINED (AppleHV error)!
+00:00:01.964208 NEM:        Bit 38 = UNDEFINED (AppleHV error)!
+00:00:01.964215 NEM:        Bit 39 = UNDEFINED (AppleHV error)!
+00:00:01.964223 NEM:        Bit 40 = UNDEFINED (AppleHV error)!
+00:00:01.964230 NEM:        Bit 41 = UNDEFINED (AppleHV error)!
+00:00:01.964301 NEM:        Bit 42 = UNDEFINED (AppleHV error)!
+00:00:01.964322 NEM:        Bit 43 = UNDEFINED (AppleHV error)!
+00:00:01.964328 NEM:        Bit 44 = UNDEFINED (AppleHV error)!
+00:00:01.964333 NEM:        Bit 45 = UNDEFINED (AppleHV error)!
+00:00:01.964339 NEM:        Bit 46 = UNDEFINED (AppleHV error)!
+00:00:01.964343 NEM:        Bit 47 = UNDEFINED (AppleHV error)!
+00:00:01.964349 NEM:        Bit 48 = UNDEFINED (AppleHV error)!
+00:00:01.964354 NEM:        Bit 49 = UNDEFINED (AppleHV error)!
+00:00:01.964359 NEM:        Bit 50 = UNDEFINED (AppleHV error)!
+00:00:01.964363 NEM:        Bit 51 = UNDEFINED (AppleHV error)!
+00:00:01.964368 NEM:        Bit 52 = UNDEFINED (AppleHV error)!
+00:00:01.964373 NEM:        Bit 53 = UNDEFINED (AppleHV error)!
+00:00:01.964378 NEM:        Bit 54 = UNDEFINED (AppleHV error)!
+00:00:01.964383 NEM:        Bit 55 = UNDEFINED (AppleHV error)!
+00:00:01.964388 NEM:        Bit 56 = UNDEFINED (AppleHV error)!
+00:00:01.964392 NEM:        Bit 57 = UNDEFINED (AppleHV error)!
+00:00:01.964397 NEM:        Bit 58 = UNDEFINED (AppleHV error)!
+00:00:01.964402 NEM:        Bit 59 = UNDEFINED (AppleHV error)!
+00:00:01.964407 NEM:        Bit 60 = UNDEFINED (AppleHV error)!
+00:00:01.964412 NEM:        Bit 61 = UNDEFINED (AppleHV error)!
+00:00:01.964417 NEM:        Bit 62 = UNDEFINED (AppleHV error)!
+00:00:01.964422 NEM:        Bit 63 = UNDEFINED (AppleHV error)!
+00:00:01.964614 PGM: Host paging mode: AMD64+PGE+NX
+00:00:01.964627 PGM: PGMPool: cMaxPages=768 (u64MaxPages=558)
+00:00:01.964635 PGM: pgmR3PoolInit: cMaxPages=0x300 cMaxUsers=0x600 cMaxPhysExts=0x600 fCacheEnable=true
+00:00:02.002947 ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={6ac83d89-6ee7-4e33-8ae6-b257b2e81be8} aComponent={ConsoleWrap} aText={The VBoxGuestPropSvc service call failed with the error VERR_HGCM_SERVICE_NOT_FOUND}, preserve=false aResultDetail=-2900
+00:00:02.476047 ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={6ac83d89-6ee7-4e33-8ae6-b257b2e81be8} aComponent={ConsoleWrap} aText={The VBoxGuestPropSvc service call failed with the error VERR_HGCM_SERVICE_NOT_FOUND}, preserve=false aResultDetail=-2900
+00:00:02.529178 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:02.844779 TM: NEM overrides the /TM/TSCModeSwitchAllowed setting.
+00:00:03.038011 TM:     cTSCTicksPerSecond=2 401 983 642 (0x8f2b5c9a) enmTSCMode=4 (NativeApi) TSCMultiplier=1
+00:00:03.038024 TM: cTSCTicksPerSecondHost=2 401 983 642 (0x8f2b5c9a)
+00:00:03.038026 TM: TSCTiedToExecution=false TSCNotTiedToHalt=false
+00:00:03.038657 EMR3Init: fIemExecutesAll=false fGuruOnTripleFault=true
+00:00:03.038880 IEM: TargetCpu=CURRENT, Microarch=Intel_Core7_CoffeeLake aidxTargetCpuEflFlavour={1,0}
+00:00:03.039437 GIM: Using provider 'KVM' (Implementation version: 0)
+00:00:03.039463 CPUM: SetGuestCpuIdFeature: Enabled Hypervisor Present bit
+00:00:03.039511 GCM: Initialized - Fixer bits: 0x8 (MesaVmsvgaDrv)
+00:00:03.039611 AIOMgr: Default manager type is 'Async'
+00:00:03.039624 AIOMgr: Default file backend is 'NonBuffered'
+00:00:03.039743 BlkCache: Cache successfully initialized. Cache size is 5242880 bytes
+00:00:03.039756 BlkCache: Cache commit interval is 10000 ms
+00:00:03.039764 BlkCache: Cache commit threshold is 2621440 bytes
+00:00:03.048300 PcBios: [SMP] BIOS with 1 CPUs
+00:00:03.048366 PcBios: Using the 386+ BIOS image.
+00:00:03.048516 PcBios: MPS table at 000e1300
+00:00:03.048945 PcBios: fCheckShutdownStatusForSoftReset=true  fClearShutdownStatusOnHardReset=true
+00:00:03.049181 CPUM: SetGuestCpuIdFeature: Enabled xAPIC
+00:00:03.049195 CPUM: SetGuestCpuIdFeature: Enabled x2APIC
+00:00:03.049948 IOAPIC: Version=2.0 ChipType=ICH9
+00:00:03.050016 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:03.050224 VMMDev: cbDefaultBudget: 715 827 882 (2aaaaaaa)
+00:00:03.054914 Shared Folders service loaded
+00:00:03.056336 Guest Control service loaded
+00:00:03.069792 VGA: Using the 386+ BIOS image.
+00:00:03.070678 DrvVD: Flushes will be ignored
+00:00:03.070697 DrvVD: Async flushes will be passed to the disk
+00:00:03.074473 VD: VDInit finished with VINF_SUCCESS
+00:00:03.074747 AIOMgr: Endpoint for file '/Users/dino/Documents/42Inception-of-Things/Inception-of-things/Inception-of-things.vdi' (flags 000c0723) created successfully
+00:00:03.075111 VD: Opening the disk took 1026261 ns
+00:00:03.075183 AHCI: LUN#0: disk, PCHS=16383/16/63, total number of sectors 25165824
+00:00:03.075308 AHCI#0: Reset the HBA
+00:00:03.075328 VD#0: Cancelling all active requests
+00:00:03.076788 PIIX3 ATA: LUN#0: no unit
+00:00:03.076811 DrvVD: Flushes will be ignored
+00:00:03.076818 DrvVD: Async flushes will be passed to the disk
+00:00:03.076907 VD: Opening the disk took 81326 ns
+00:00:03.076943 PIIX3 ATA: LUN#1: CD/DVD, total number of sectors 323072, passthrough disabled
+00:00:03.077050 PIIX3 ATA: LUN#2: no unit
+00:00:03.077063 PIIX3 ATA: LUN#3: no unit
+00:00:03.077100 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:03.077121 PIIX3 ATA: Ctl#1: finished processing RESET
+00:00:03.077201 E1000#0: Chip=82540EM LinkUpDelay=5000ms EthernetCRC=on GSO=enabled Itr=disabled ItrRx=enabled TID=disabled R0=disabled RC=disabled
+00:00:03.077608 AC97: Using codec 'AD1980'
+00:00:03.077704 Audio: Initializing Core Audio driver
+00:00:03.196715 CoreAudio: Default output device: 105 (was 0), ID 'BuiltInSpeakerDevice'
+00:00:03.196875 CoreAudio: Default input device: 112 (was 0), ID 'BuiltInMicrophoneDevice'
+00:00:03.202569 Audio: Found 4 devices for driver 'Core Audio'
+00:00:03.202597 Audio: Device 'SAMSUNG':
+00:00:03.202597 Audio:   ID              = AppleGFXHDAEngineOutputDP:f803:0:{2D4C-7267-00000000}
+00:00:03.202598 Audio:   Usage           = output
+00:00:03.202599 Audio:   Flags           = NAME_ALLOC ID_ALLOC
+00:00:03.202600 Audio:   Input channels  = 0
+00:00:03.202600 Audio:   Output channels = 2
+00:00:03.202608 Audio: Device 'Micro MacBook Pro':
+00:00:03.202609 Audio:   ID              = BuiltInMicrophoneDevice
+00:00:03.202609 Audio:   Usage           = input
+00:00:03.202610 Audio:   Flags           = DEFAULT_IN NAME_ALLOC ID_ALLOC
+00:00:03.202610 Audio:   Input channels  = 1
+00:00:03.202611 Audio:   Output channels = 0
+00:00:03.202639 Audio: Device 'Haut-parleurs MacBook Pro':
+00:00:03.202640 Audio:   ID              = BuiltInSpeakerDevice
+00:00:03.202640 Audio:   Usage           = output
+00:00:03.202640 Audio:   Flags           = DEFAULT_OUT NAME_ALLOC ID_ALLOC
+00:00:03.202641 Audio:   Input channels  = 0
+00:00:03.202641 Audio:   Output channels = 2
+00:00:03.202647 Audio: Device 'Microsoft Teams Audio':
+00:00:03.202647 Audio:   ID              = MSLoopbackDriverDevice_UID
+00:00:03.202648 Audio:   Usage           = duplex
+00:00:03.202648 Audio:   Flags           = NAME_ALLOC ID_ALLOC
+00:00:03.202648 Audio:   Input channels  = 2
+00:00:03.202649 Audio:   Output channels = 2
+00:00:03.202767 AC97: Reset
+00:00:03.202776 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:00:03.202782 AC97: Record select to left=mic, right=mic
+00:00:03.202788 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:00:03.202797 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:03.202806 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:03.202813 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:03.202822 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:03.202829 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:03.202835 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:03.202842 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:03.203522 VUSB: Attached 'HidMouse' to port 1 on RootHub#1 (FullSpeed)
+00:00:03.203556 PGM: The CPU physical address width is 39 bits
+00:00:03.203566 PGM: PGMR3InitFinalize: 4 MB PSE mask 0000007fffffffff -> VINF_SUCCESS
+00:00:03.203583 TM: TMR3InitFinalize: fTSCModeSwitchAllowed=false
+00:00:03.203756 CPUM: Mapped 1.0 MiB (1048576 bytes) of RAM using fixed-range MTRRs
+00:00:03.203769 CPUM: Mapped 1.0 GiB (1101004800 bytes) of RAM using 4 variable-range MTRRs
+00:00:03.203785 EM: Exit history optimizations: enabled=true enabled-r0=true enabled-r0-no-preemption=false
+00:00:03.203811 PcBios: SATA LUN#0 LCHS=1024/255/63
+00:00:03.203827 APIC: fPostedIntrsEnabled=false fVirtApicRegsEnabled=false fSupportsTscDeadline=false
+00:00:03.203835 TMR3UtcNow: nsNow=1 729 068 743 938 280 000 nsPrev=0 -> cNsDelta=1 729 068 743 938 280 000 (offLag=0 offVirtualSync=0 offVirtualSyncGivenUp=0, NowAgain=1 729 068 743 938 280 000)
+00:00:03.203846 VMM: fUsePeriodicPreemptionTimers=true
+00:00:03.203979 CPUM: Logical host processors: 8 present, 8 max, 8 online, online mask: 00000000000000ff
+00:00:03.203986 CPUM: Physical host cores: 4
+00:00:03.203986 ************************* CPUID dump ************************
+00:00:03.203997          Raw Standard CPUID Leaves
+00:00:03.203997      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:03.203998 Gst: 00000000/0000  00000016 756e6547 6c65746e 49656e69
+00:00:03.203999 Hst:                00000016 756e6547 6c65746e 49656e69
+00:00:03.204001 Gst: 00000001/0000  000806ea 00010800 f6fa320b 178bfbff
+00:00:03.204002 Hst:                000806ea 06100800 7ffafbbf bfebfbff
+00:00:03.204003 Gst: 00000002/0000  76036301 00f0b5ff 00000000 00c30000
+00:00:03.204004 Hst:                76036301 00f0b5ff 00000000 00c30000
+00:00:03.204005 Gst: 00000003/0000  00000000 00000000 00000000 00000000
+00:00:03.204006 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204007 Gst: 00000004/0000  00000121 01c0003f 0000003f 00000000
+00:00:03.204008 Hst:                1c004121 01c0003f 0000003f 00000000
+00:00:03.204009 Gst: 00000004/0001  00000122 01c0003f 0000003f 00000000
+00:00:03.204010 Hst:                1c004122 01c0003f 0000003f 00000000
+00:00:03.204011 Gst: 00000004/0002  00000143 00c0003f 000003ff 00000000
+00:00:03.204012 Hst:                1c004143 00c0003f 000003ff 00000000
+00:00:03.204013 Gst: 00000004/0003  00000163 02c0003f 00001fff 00000006
+00:00:03.204014 Hst:                1c03c163 02c0003f 00001fff 00000006
+00:00:03.204015 Gst: 00000004/0004  00000000 00000000 00000000 00000000
+00:00:03.204016 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204017 Gst: 00000005/0000  00000040 00000040 00000000 00000000
+00:00:03.204018 Hst:                00000040 00000040 00000003 11142120
+00:00:03.204019 Gst: 00000006/0000  00000004 00000000 00000000 00000000
+00:00:03.204020 Hst:                000026f7 00000002 00000009 00000000
+00:00:03.204021 Gst: 00000007/0000  00000000 008c2529 00000000 30000400
+00:00:03.204022 Hst:                00000000 029c67af 00000000 bc002e00
+00:00:03.204023 Gst: 00000007/0001  00000000 00000000 00000000 00000000
+00:00:03.204024 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204024 Gst: 00000008/0000  00000000 00000000 00000000 00000000
+00:00:03.204025 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204026 Gst: 00000009/0000  00000000 00000000 00000000 00000000
+00:00:03.204027 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204028 Gst: 0000000a/0000  00000000 00000000 00000000 00000000
+00:00:03.204028 Hst:                07300404 00000000 00000000 00000603
+00:00:03.204029 Gst: 0000000b/0000  00000000 00000001 00000100 00000000
+00:00:03.204030 Hst:                00000001 00000002 00000100 00000006
+00:00:03.204031 Gst: 0000000b/0001  00000001 00000001 00000201 00000000
+00:00:03.204032 Hst:                00000004 00000008 00000201 00000006
+00:00:03.204032 Gst: 0000000b/0002  00000000 00000000 00000002 00000000
+00:00:03.204033 Hst:                00000000 00000000 00000002 00000006
+00:00:03.204034 Gst: 0000000c/0000  00000000 00000000 00000000 00000000
+00:00:03.204035 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204036 Gst: 0000000d/0000  00000007 00000340 00000340 00000000
+00:00:03.204037 Hst:                0000001f 00000340 00000440 00000000
+00:00:03.204037 Gst: 0000000d/0001  00000000 00000340 00000000 00000000
+00:00:03.204038 Hst:                0000000f 00000340 00000100 00000000
+00:00:03.204039 Gst: 0000000d/0002  00000100 00000240 00000000 00000000
+00:00:03.204040 Hst:                00000100 00000240 00000000 00000000
+00:00:03.204041 Gst: 0000000d/0003  00000000 00000000 00000000 00000000
+00:00:03.204042 Hst:                00000040 000003c0 00000000 00000000
+00:00:03.204042 Gst: 0000000d/0004  00000000 00000000 00000000 00000000
+00:00:03.204043 Hst:                00000040 00000400 00000000 00000000
+00:00:03.204044 Gst: 0000000d/0005  00000000 00000000 00000000 00000000
+00:00:03.204045 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204046 Gst: 0000000d/0006  00000000 00000000 00000000 00000000
+00:00:03.204046 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204047 Gst: 0000000d/0007  00000000 00000000 00000000 00000000
+00:00:03.204048 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204049 Gst: 0000000d/0008  00000000 00000000 00000000 00000000
+00:00:03.204050 Hst:                00000080 00000000 00000001 00000000
+00:00:03.204051 Gst: 0000000d/0009  00000000 00000000 00000000 00000000
+00:00:03.204051 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204074 Gst: 0000000e/0000  00000000 00000000 00000000 00000000
+00:00:03.204075 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204075 Gst: 0000000f/0000  00000000 00000000 00000000 00000000
+00:00:03.204076 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204077 Gst: 00000010/0000  00000000 00000000 00000000 00000000
+00:00:03.204078 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204079 Gst: 00000011/0000  00000000 00000000 00000000 00000000
+00:00:03.204080 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204080 Gst: 00000012/0000  00000000 00000000 00000000 00000000
+00:00:03.204081 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204082 Gst: 00000013/0000  00000000 00000000 00000000 00000000
+00:00:03.204083 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204084 Gst: 00000014/0000  00000000 00000000 00000000 00000000
+00:00:03.204084 Hst:                00000001 0000000f 00000007 00000000
+00:00:03.204085 Hst: 00000015/0000  00000002 000000c8 00000000 00000000
+00:00:03.204087 Hst: 00000016/0000  00000960 00001004 00000064 00000000
+00:00:03.204088                                Name: GenuineIntel
+00:00:03.204089                            Supports: 0x00000000-0x00000016
+00:00:03.204094                              Family:  6 	Extended: 0 	Effective: 6
+00:00:03.204095                               Model: 14 	Extended: 8 	Effective: 142
+00:00:03.204097                            Stepping: 10
+00:00:03.204098                                Type: 0 (primary)
+00:00:03.204099                             APIC ID: 0x00
+00:00:03.204100                        Logical CPUs: 1
+00:00:03.204101                        CLFLUSH Size: 8
+00:00:03.204102                            Brand ID: 0x00
+00:00:03.204103 Features
+00:00:03.204103   Mnemonic - Description                                  = guest (host)
+00:00:03.204104   FPU - x87 FPU on Chip                                   = 1 (1)
+00:00:03.204106   VME - Virtual 8086 Mode Enhancements                    = 1 (1)
+00:00:03.204107   DE - Debugging extensions                               = 1 (1)
+00:00:03.204109   PSE - Page Size Extension                               = 1 (1)
+00:00:03.204112   TSC - Time Stamp Counter                                = 1 (1)
+00:00:03.204114   MSR - Model Specific Registers                          = 1 (1)
+00:00:03.204115   PAE - Physical Address Extension                        = 1 (1)
+00:00:03.204116   MCE - Machine Check Exception                           = 1 (1)
+00:00:03.204117   CX8 - CMPXCHG8B instruction                             = 1 (1)
+00:00:03.204118   APIC - APIC On-Chip                                     = 1 (1)
+00:00:03.204120   SEP - SYSENTER and SYSEXIT Present                      = 1 (1)
+00:00:03.204121   MTRR - Memory Type Range Registers                      = 1 (1)
+00:00:03.204122   PGE - PTE Global Bit                                    = 1 (1)
+00:00:03.204123   MCA - Machine Check Architecture                        = 1 (1)
+00:00:03.204125   CMOV - Conditional Move instructions                    = 1 (1)
+00:00:03.204126   PAT - Page Attribute Table                              = 1 (1)
+00:00:03.204127   PSE-36 - 36-bit Page Size Extension                     = 1 (1)
+00:00:03.204128   PSN - Processor Serial Number                           = 0 (0)
+00:00:03.204129   CLFSH - CLFLUSH instruction                             = 1 (1)
+00:00:03.204131   DS - Debug Store                                        = 0 (1)
+00:00:03.204132   ACPI - Thermal Mon. & Soft. Clock Ctrl.                 = 0 (1)
+00:00:03.204133   MMX - Intel MMX Technology                              = 1 (1)
+00:00:03.204134   FXSR - FXSAVE and FXRSTOR instructions                  = 1 (1)
+00:00:03.204135   SSE - SSE support                                       = 1 (1)
+00:00:03.204137   SSE2 - SSE2 support                                     = 1 (1)
+00:00:03.204138   SS - Self Snoop                                         = 0 (1)
+00:00:03.204140   HTT - Hyper-Threading Technology                        = 1 (1)
+00:00:03.204141   TM - Therm. Monitor                                     = 0 (1)
+00:00:03.204142   PBE - Pending Break Enabled                             = 0 (1)
+00:00:03.204143   SSE3 - SSE3 support                                     = 1 (1)
+00:00:03.204145   PCLMUL - PCLMULQDQ support (for AES-GCM)                = 1 (1)
+00:00:03.204146   DTES64 - DS Area 64-bit Layout                          = 0 (1)
+00:00:03.204147   MONITOR - MONITOR/MWAIT instructions                    = 1 (1)
+00:00:03.204148   CPL-DS - CPL Qualified Debug Store                      = 0 (1)
+00:00:03.204149   VMX - Virtual Machine Extensions                        = 0 (1)
+00:00:03.204150   SMX - Safer Mode Extensions                             = 0 (0)
+00:00:03.204151   EST - Enhanced SpeedStep Technology                     = 0 (1)
+00:00:03.204153   TM2 - Terminal Monitor 2                                = 0 (1)
+00:00:03.204154   SSSE3 - Supplemental Streaming SIMD Extensions 3        = 1 (1)
+00:00:03.204155   CNTX-ID - L1 Context ID                                 = 0 (0)
+00:00:03.204156   SDBG - Silicon Debug interface                          = 0 (1)
+00:00:03.204157   FMA - Fused Multiply Add extensions                     = 1 (1)
+00:00:03.204158   CX16 - CMPXCHG16B instruction                           = 1 (1)
+00:00:03.204159   TPRUPDATE - xTPR Update Control                         = 0 (1)
+00:00:03.204161   PDCM - Perf/Debug Capability MSR                        = 0 (1)
+00:00:03.204162   PCID - Process Context Identifiers                      = 1 (1)
+00:00:03.204163   DCA - Direct Cache Access                               = 0 (0)
+00:00:03.204164   SSE4_1 - SSE4_1 support                                 = 1 (1)
+00:00:03.204165   SSE4_2 - SSE4_2 support                                 = 1 (1)
+00:00:03.204167   X2APIC - x2APIC support                                 = 1 (1)
+00:00:03.204168   MOVBE - MOVBE instruction                               = 1 (1)
+00:00:03.204169   POPCNT - POPCNT instruction                             = 1 (1)
+00:00:03.204171   TSCDEADL - Time Stamp Counter Deadline                  = 0 (1)
+00:00:03.204172   AES - AES instructions                                  = 1 (1)
+00:00:03.204173   XSAVE - XSAVE instruction                               = 1 (1)
+00:00:03.204174   OSXSAVE - OSXSAVE instruction                           = 0 (1)
+00:00:03.204175   AVX - AVX support                                       = 1 (1)
+00:00:03.204177   F16C - 16-bit floating point conversion instructions    = 1 (1)
+00:00:03.204178   RDRAND - RDRAND instruction                             = 1 (1)
+00:00:03.204179   HVP - Hypervisor Present (we're a guest)                = 1 (0)
+00:00:03.204180 Structured Extended Feature Flags Enumeration (leaf 7):
+00:00:03.204181   Mnemonic - Description                                  = guest (host)
+00:00:03.204181   FSGSBASE - RDFSBASE/RDGSBASE/WRFSBASE/WRGSBASE instr.   = 1 (1)
+00:00:03.204182   TSCADJUST - Supports MSR_IA32_TSC_ADJUST                = 0 (1)
+00:00:03.204183   SGX - Supports Software Guard Extensions                = 0 (1)
+00:00:03.204184   BMI1 - Advanced Bit Manipulation extension 1            = 1 (1)
+00:00:03.204185   HLE - Hardware Lock Elision                             = 0 (0)
+00:00:03.204186   AVX2 - Advanced Vector Extensions 2                     = 1 (1)
+00:00:03.204187   FDP_EXCPTN_ONLY - FPU DP only updated on exceptions     = 0 (0)
+00:00:03.204188   SMEP - Supervisor Mode Execution Prevention             = 0 (1)
+00:00:03.204189   BMI2 - Advanced Bit Manipulation extension 2            = 1 (1)
+00:00:03.204190   ERMS - Enhanced REP MOVSB/STOSB instructions            = 0 (1)
+00:00:03.204191   INVPCID - INVPCID instruction                           = 1 (1)
+00:00:03.204192   RTM - Restricted Transactional Memory                   = 0 (0)
+00:00:03.204193   PQM - Platform Quality of Service Monitoring            = 0 (0)
+00:00:03.204194   DEPFPU_CS_DS - Deprecates FPU CS, FPU DS values if set  = 1 (1)
+00:00:03.204195   MPE - Intel Memory Protection Extensions                = 0 (1)
+00:00:03.204196   PQE - Platform Quality of Service Enforcement           = 0 (0)
+00:00:03.204197   AVX512F - AVX512 Foundation instructions                = 0 (0)
+00:00:03.204198   RDSEED - RDSEED instruction                             = 1 (1)
+00:00:03.204199   ADX - ADCX/ADOX instructions                            = 1 (1)
+00:00:03.204200   SMAP - Supervisor Mode Access Prevention                = 0 (1)
+00:00:03.204201   CLFLUSHOPT - CLFLUSHOPT (Cache Line Flush) instruction  = 1 (1)
+00:00:03.204202   CLWB - CLWB instruction                                 = 0 (0)
+00:00:03.204203   INTEL_PT - Intel Processor Trace                        = 0 (1)
+00:00:03.204204   AVX512PF - AVX512 Prefetch instructions                 = 0 (0)
+00:00:03.204205   AVX512ER - AVX512 Exponential & Reciprocal instructions = 0 (0)
+00:00:03.204206   AVX512CD - AVX512 Conflict Detection instructions       = 0 (0)
+00:00:03.204207   SHA - Secure Hash Algorithm extensions                  = 0 (0)
+00:00:03.204208   PREFETCHWT1 - PREFETCHWT1 instruction                   = 0 (0)
+00:00:03.204209   UMIP - User mode insturction prevention                 = 0 (0)
+00:00:03.204210   PKU - Protection Key for Usermode pages                 = 0 (0)
+00:00:03.204211   OSPKE - CR4.PKU mirror                                  = 0 (0)
+00:00:03.204212   MAWAU - Value used by BNDLDX & BNDSTX                   = 0x0 (0x0)
+00:00:03.204214   RDPID - Read processor ID support                       = 0 (0)
+00:00:03.204215   SGX_LC - Supports SGX Launch Configuration              = 0 (0)
+00:00:03.204216    9 - Reserved                                           = 0 (1)
+00:00:03.204217   MD_CLEAR - Supports MDS related buffer clearing         = 1 (1)
+00:00:03.204218   11 - Reserved                                           = 0 (1)
+00:00:03.204220   13 - Reserved                                           = 0 (1)
+00:00:03.204221   IBRS_IBPB - IA32_SPEC_CTRL.IBRS and IA32_PRED_CMD.IBPB  = 0 (1)
+00:00:03.204222   STIBP - Supports IA32_SPEC_CTRL.STIBP                   = 0 (1)
+00:00:03.204223   FLUSH_CMD - Supports IA32_FLUSH_CMD                     = 1 (1)
+00:00:03.204224   ARCHCAP - Supports IA32_ARCH_CAP                        = 1 (1)
+00:00:03.204225   CORECAP - Supports IA32_CORE_CAP                        = 0 (0)
+00:00:03.204226   SSBD - Supports IA32_SPEC_CTRL.SSBD                     = 0 (1)
+00:00:03.204228 Processor Extended State Enumeration (leaf 0xd):
+00:00:03.204228    XSAVE area cur/max size by XCR0, guest: 0x340/0x340
+00:00:03.204229     XSAVE area cur/max size by XCR0, host: 0x340/0x440
+00:00:03.204231                    Valid XCR0 bits, guest: 0x00000000`00000007 ( x87 SSE YMM_Hi128 )
+00:00:03.204236                     Valid XCR0 bits, host: 0x00000000`0000001f ( x87 SSE YMM_Hi128 BNDREGS BNDCSR )
+00:00:03.204239                     XSAVE features, guest:
+00:00:03.204241                      XSAVE features, host: XSAVEOPT XSAVEC XGETBC1 XSAVES
+00:00:03.204242       XSAVE area cur size XCR0|XSS, guest: 0x340
+00:00:03.204243        XSAVE area cur size XCR0|XSS, host: 0x340
+00:00:03.204244                Valid IA32_XSS bits, guest: 0x00000000`00000000
+00:00:03.204245                 Valid IA32_XSS bits, host: 0x00000100`00000000 ( 40 )
+00:00:03.204246   State #2, guest: off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:03.204248   State #2, host:  off=0x0240, cb=0x0100 IA32_XSS-bit -- YMM_Hi128
+00:00:03.204249   State #3, host:  off=0x03c0, cb=0x0040 IA32_XSS-bit -- BNDREGS
+00:00:03.204251   State #4, host:  off=0x0400, cb=0x0040 IA32_XSS-bit -- BNDCSR
+00:00:03.204253   State #8, host:  off=0x0000, cb=0x0080 XCR0-bit -- 8
+00:00:03.204264          Unknown CPUID Leaves
+00:00:03.204265      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:03.204265 Gst: 00000014/0001  00000000 00000000 00000000 00000000
+00:00:03.204266 Hst:                02490002 003f3fff 00000000 00000000
+00:00:03.204267 Gst: 00000014/0002  00000000 00000000 00000000 00000000
+00:00:03.204268 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204269 Gst: 00000015/0000  00000000 00000000 00000000 00000000
+00:00:03.204270 Hst:                00000002 000000c8 00000000 00000000
+00:00:03.204271 Gst: 00000016/0000  00000000 00000000 00000000 00000000
+00:00:03.204272 Hst:                00000960 00001004 00000064 00000000
+00:00:03.204273          Raw Hypervisor CPUID Leaves
+00:00:03.204274      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:03.204275 Gst: 40000000/0000  40000001 4b4d564b 564b4d56 0000004d
+00:00:03.204276 Hst:                00000960 00001004 00000064 00000000
+00:00:03.204277 Gst: 40000001/0000  01000089 00000000 00000000 00000000
+00:00:03.204278 Hst:                00000960 00001004 00000064 00000000
+00:00:03.204279          Raw Extended CPUID Leaves
+00:00:03.204279      Leaf/sub-leaf  eax      ebx      ecx      edx
+00:00:03.204280 Gst: 80000000/0000  80000008 00000000 00000000 00000000
+00:00:03.204281 Hst:                80000008 00000000 00000000 00000000
+00:00:03.204282 Gst: 80000001/0000  00000000 00000000 00000121 28100800
+00:00:03.204283 Hst:                00000000 00000000 00000121 2c100800
+00:00:03.204284 Gst: 80000002/0000  65746e49 2952286c 726f4320 4d542865
+00:00:03.204285 Hst:                65746e49 2952286c 726f4320 4d542865
+00:00:03.204287 Gst: 80000003/0000  35692029 3732382d 43205539 40205550
+00:00:03.204288 Hst:                35692029 3732382d 43205539 40205550
+00:00:03.204290 Gst: 80000004/0000  342e3220 7a484730 00000000 00000000
+00:00:03.204291 Hst:                342e3220 7a484730 00000000 00000000
+00:00:03.204292 Gst: 80000005/0000  00000000 00000000 00000000 00000000
+00:00:03.204292 Hst:                00000000 00000000 00000000 00000000
+00:00:03.204293 Gst: 80000006/0000  00000000 00000000 01006040 00000000
+00:00:03.204294 Hst:                00000000 00000000 01006040 00000000
+00:00:03.204295 Gst: 80000007/0000  00000000 00000000 00000000 00000100
+00:00:03.204296 Hst:                00000000 00000000 00000000 00000100
+00:00:03.204297 Gst: 80000008/0000  00003027 00000000 00000000 00000000
+00:00:03.204298 Hst:                00003027 00000000 00000000 00000000
+00:00:03.204298 Ext Name:                        
+00:00:03.204299 Ext Supports:                    0x80000000-0x80000008
+00:00:03.204300 Family:                          0  	Extended: 0 	Effective: 0
+00:00:03.204300 Model:                           0  	Extended: 0 	Effective: 0
+00:00:03.204301 Stepping:                        0
+00:00:03.204301 Brand ID:                        0x000
+00:00:03.204302 Ext Features
+00:00:03.204302   Mnemonic - Description                                  = guest (host)
+00:00:03.204303   FPU - x87 FPU on Chip                                   = 0 (0)
+00:00:03.204305   VME - Virtual 8086 Mode Enhancements                    = 0 (0)
+00:00:03.204306   DE - Debugging extensions                               = 0 (0)
+00:00:03.204307   PSE - Page Size Extension                               = 0 (0)
+00:00:03.204308   TSC - Time Stamp Counter                                = 0 (0)
+00:00:03.204310   MSR - K86 Model Specific Registers                      = 0 (0)
+00:00:03.204311   PAE - Physical Address Extension                        = 0 (0)
+00:00:03.204312   MCE - Machine Check Exception                           = 0 (0)
+00:00:03.204313   CX8 - CMPXCHG8B instruction                             = 0 (0)
+00:00:03.204314   APIC - APIC On-Chip                                     = 0 (0)
+00:00:03.204316   SEP - SYSCALL/SYSRET                                    = 1 (1)
+00:00:03.204317   MTRR - Memory Type Range Registers                      = 0 (0)
+00:00:03.204318   PGE - PTE Global Bit                                    = 0 (0)
+00:00:03.204319   MCA - Machine Check Architecture                        = 0 (0)
+00:00:03.204320   CMOV - Conditional Move instructions                    = 0 (0)
+00:00:03.204322   PAT - Page Attribute Table                              = 0 (0)
+00:00:03.204323   PSE-36 - 36-bit Page Size Extension                     = 0 (0)
+00:00:03.204324   NX - No-Execute/Execute-Disable                         = 1 (1)
+00:00:03.204325   AXMMX - AMD Extensions to MMX instructions              = 0 (0)
+00:00:03.204326   MMX - Intel MMX Technology                              = 0 (0)
+00:00:03.204327   FXSR - FXSAVE and FXRSTOR Instructions                  = 0 (0)
+00:00:03.204328   FFXSR - AMD fast FXSAVE and FXRSTOR instructions        = 0 (0)
+00:00:03.204329   Page1GB - 1 GB large page                               = 0 (1)
+00:00:03.204330   RDTSCP - RDTSCP instruction                             = 1 (1)
+00:00:03.204332   LM - AMD64 Long Mode                                    = 1 (1)
+00:00:03.204333   3DNOWEXT - AMD Extensions to 3DNow                      = 0 (0)
+00:00:03.204334   3DNOW - AMD 3DNow                                       = 0 (0)
+00:00:03.204336   LahfSahf - LAHF/SAHF support in 64-bit mode             = 1 (1)
+00:00:03.204337   CmpLegacy - Core multi-processing legacy mode           = 0 (0)
+00:00:03.204337   SVM - AMD Secure Virtual Machine extensions             = 0 (0)
+00:00:03.204338   EXTAPIC - AMD Extended APIC registers                   = 0 (0)
+00:00:03.204339   CR8L - AMD LOCK MOV CR0 means MOV CR8                   = 0 (0)
+00:00:03.204340   ABM - AMD Advanced Bit Manipulation                     = 1 (1)
+00:00:03.204342   SSE4A - SSE4A instructions                              = 0 (0)
+00:00:03.204343   MISALIGNSSE - AMD Misaligned SSE mode                   = 0 (0)
+00:00:03.204344   3DNOWPRF - AMD PREFETCH and PREFETCHW instructions      = 1 (1)
+00:00:03.204345   OSVW - AMD OS Visible Workaround                        = 0 (0)
+00:00:03.204346   IBS - Instruct Based Sampling                           = 0 (0)
+00:00:03.204347   XOP - Extended Operation support                        = 0 (0)
+00:00:03.204348   SKINIT - SKINIT, STGI, and DEV support                  = 0 (0)
+00:00:03.204349   WDT - AMD Watchdog Timer support                        = 0 (0)
+00:00:03.204350   LWP - Lightweight Profiling support                     = 0 (0)
+00:00:03.204351   FMA4 - Four operand FMA instruction support             = 0 (0)
+00:00:03.204352   TCE - Translation Cache Extension support               = 0 (0)
+00:00:03.204353   NodeId - NodeId in MSR C001_100C                        = 0 (0)
+00:00:03.204355   TBM - Trailing Bit Manipulation instructions            = 0 (0)
+00:00:03.204355   TOPOEXT - Topology Extensions                           = 0 (0)
+00:00:03.204357   PRFEXTCORE - Performance Counter Extensions support     = 0 (0)
+00:00:03.204357   PRFEXTNB - NB Performance Counter Extensions support    = 0 (0)
+00:00:03.204358   DATABPEXT - Data-access Breakpoint Extension            = 0 (0)
+00:00:03.204359   PERFTSC - Performance Time Stamp Counter                = 0 (0)
+00:00:03.204360   PCX_L2I - L2I/L3 Performance Counter Extensions         = 0 (0)
+00:00:03.204361   MONITORX - MWAITX and MONITORX instructions             = 0 (0)
+00:00:03.204362   AddrMaskExt - BP Addressing masking extended to bit 31  = 0 (0)
+00:00:03.204363 Full Name:                       "Intel(R) Core(TM) i5-8279U CPU @ 2.40GHz"
+00:00:03.204364 TLB 2/4M Instr/Uni:              res0     0 entries
+00:00:03.204364 TLB 2/4M Data:                   res0     0 entries
+00:00:03.204365 TLB 4K Instr/Uni:                res0     0 entries
+00:00:03.204366 TLB 4K Data:                     res0     0 entries
+00:00:03.204367 L1 Instr Cache Line Size:        0 bytes
+00:00:03.204367 L1 Instr Cache Lines Per Tag:    0
+00:00:03.204368 L1 Instr Cache Associativity:    res0  
+00:00:03.204368 L1 Instr Cache Size:             0 KB
+00:00:03.204368 L1 Data Cache Line Size:         0 bytes
+00:00:03.204369 L1 Data Cache Lines Per Tag:     0
+00:00:03.204369 L1 Data Cache Associativity:     res0  
+00:00:03.204370 L1 Data Cache Size:              0 KB
+00:00:03.204370 L2 TLB 2/4M Instr/Uni:           off       0 entries
+00:00:03.204371 L2 TLB 2/4M Data:                off       0 entries
+00:00:03.204371 L2 TLB 4K Instr/Uni:             off       0 entries
+00:00:03.204372 L2 TLB 4K Data:                  off       0 entries
+00:00:03.204372 L2 Cache Line Size:              64 bytes
+00:00:03.204373 L2 Cache Lines Per Tag:          0
+00:00:03.204373 L2 Cache Associativity:          8 way 
+00:00:03.204373 L2 Cache Size:                   256 KB
+00:00:03.204374 L3 Cache Line Size:              0 bytes
+00:00:03.204374 L3 Cache Lines Per Tag:          0
+00:00:03.204375 L3 Cache Associativity:          off   
+00:00:03.204375 L3 Cache Size:                   0 KB
+00:00:03.204376   TS - Temperature Sensor                                 = 0 (0)
+00:00:03.204377   FID - Frequency ID control                              = 0 (0)
+00:00:03.204378   VID - Voltage ID control                                = 0 (0)
+00:00:03.204380   TTP - Thermal Trip                                      = 0 (0)
+00:00:03.204381   TM - Hardware Thermal Control (HTC)                     = 0 (0)
+00:00:03.204382   100MHzSteps - 100 MHz Multiplier control                = 0 (0)
+00:00:03.204383   HwPstate - Hardware P-state control                     = 0 (0)
+00:00:03.204384   TscInvariant - Invariant Time Stamp Counter             = 1 (1)
+00:00:03.204385   CPB - Core Performance Boost                            = 0 (0)
+00:00:03.204386   EffFreqRO - Read-only Effective Frequency Interface     = 0 (0)
+00:00:03.204387   ProcFdbkIf - Processor Feedback Interface               = 0 (0)
+00:00:03.204388   ProcPwrRep - Core power reporting interface support     = 0 (0)
+00:00:03.204389   ConnectedStandby - Connected Standby                    = 0 (0)
+00:00:03.204390   RAPL - Running average power limit                      = 0 (0)
+00:00:03.204391 Physical Address Width:          39 bits
+00:00:03.204392 Virtual Address Width:           48 bits
+00:00:03.204392 Guest Physical Address Width:    0 bits
+00:00:03.204393 Physical Core Count:             1
+00:00:03.204394 
+00:00:03.204394 ******************** End of CPUID dump **********************
+00:00:03.204395 *********************** VT-x features ***********************
+00:00:03.204398 Nested hardware virtualization - VMX features
+00:00:03.204398   Mnemonic - Description                                  = guest (host)
+00:00:03.204399   VMX - Virtual-Machine Extensions                        = 0 (1)
+00:00:03.204400   InsOutInfo - INS/OUTS instruction info.                 = 0 (0)
+00:00:03.204400   ExtIntExit - External interrupt exiting                 = 0 (0)
+00:00:03.204401   NmiExit - NMI exiting                                   = 0 (0)
+00:00:03.204401   VirtNmi - Virtual NMIs                                  = 0 (0)
+00:00:03.204402   PreemptTimer - VMX preemption timer                     = 0 (0)
+00:00:03.204402   PostedInt - Posted interrupts                           = 0 (0)
+00:00:03.204403   IntWindowExit - Interrupt-window exiting                = 0 (0)
+00:00:03.204403   TscOffsetting - TSC offsetting                          = 0 (0)
+00:00:03.204404   HltExit - HLT exiting                                   = 0 (0)
+00:00:03.204405   InvlpgExit - INVLPG exiting                             = 0 (0)
+00:00:03.204405   MwaitExit - MWAIT exiting                               = 0 (0)
+00:00:03.204406   RdpmcExit - RDPMC exiting                               = 0 (0)
+00:00:03.204406   RdtscExit - RDTSC exiting                               = 0 (0)
+00:00:03.204407   Cr3LoadExit - CR3-load exiting                          = 0 (0)
+00:00:03.204407   Cr3StoreExit - CR3-store exiting                        = 0 (0)
+00:00:03.204408   TertiaryExecCtls - Activate tertiary controls           = 0 (0)
+00:00:03.204408   Cr8LoadExit  - CR8-load exiting                         = 0 (0)
+00:00:03.204409   Cr8StoreExit - CR8-store exiting                        = 0 (0)
+00:00:03.204409   UseTprShadow - Use TPR shadow                           = 0 (0)
+00:00:03.204410   NmiWindowExit - NMI-window exiting                      = 0 (0)
+00:00:03.204410   MovDRxExit - Mov-DR exiting                             = 0 (0)
+00:00:03.204416   UncondIoExit - Unconditional I/O exiting                = 0 (0)
+00:00:03.204416   UseIoBitmaps - Use I/O bitmaps                          = 0 (0)
+00:00:03.204417   MonitorTrapFlag - Monitor Trap Flag                     = 0 (0)
+00:00:03.204418   UseMsrBitmaps - MSR bitmaps                             = 0 (0)
+00:00:03.204418   MonitorExit - MONITOR exiting                           = 0 (0)
+00:00:03.204419   PauseExit - PAUSE exiting                               = 0 (0)
+00:00:03.204419   SecondaryExecCtl - Activate secondary controls          = 0 (0)
+00:00:03.204420   VirtApic - Virtualize-APIC accesses                     = 0 (0)
+00:00:03.204420   Ept - Extended Page Tables                              = 0 (0)
+00:00:03.204421   DescTableExit - Descriptor-table exiting                = 0 (0)
+00:00:03.204421   Rdtscp - Enable RDTSCP                                  = 0 (0)
+00:00:03.204422   VirtX2ApicMode - Virtualize-x2APIC mode                 = 0 (0)
+00:00:03.204422   Vpid - Enable VPID                                      = 0 (0)
+00:00:03.204423   WbinvdExit - WBINVD exiting                             = 0 (0)
+00:00:03.204423   UnrestrictedGuest - Unrestricted guest                  = 0 (0)
+00:00:03.204424   ApicRegVirt - APIC-register virtualization              = 0 (0)
+00:00:03.204424   VirtIntDelivery - Virtual-interrupt delivery            = 0 (0)
+00:00:03.204425   PauseLoopExit - PAUSE-loop exiting                      = 0 (0)
+00:00:03.204426   RdrandExit - RDRAND exiting                             = 0 (0)
+00:00:03.204426   Invpcid - Enable INVPCID                                = 0 (0)
+00:00:03.204427   VmFuncs - Enable VM Functions                           = 0 (0)
+00:00:03.204427   VmcsShadowing - VMCS shadowing                          = 0 (0)
+00:00:03.204428   RdseedExiting - RDSEED exiting                          = 0 (0)
+00:00:03.204428   PML - Page-Modification Log                             = 0 (0)
+00:00:03.204429   EptVe - EPT violations can cause #VE                    = 0 (0)
+00:00:03.204429   ConcealVmxFromPt - Conceal VMX from Processor Trace     = 0 (0)
+00:00:03.204430   XsavesXRstors - Enable XSAVES/XRSTORS                   = 0 (0)
+00:00:03.204433   PasidTranslate - PASID translation                      = 0 (0)
+00:00:03.204433   ModeBasedExecuteEpt - Mode-based execute permissions    = 0 (0)
+00:00:03.204434   SppEpt - Sub-page page write permissions for EPT        = 0 (0)
+00:00:03.204434   PtEpt - Processor Trace address' translatable by EPT    = 0 (0)
+00:00:03.204435   UseTscScaling - Use TSC scaling                         = 0 (0)
+00:00:03.204435   UserWaitPause - Enable TPAUSE, UMONITOR and UMWAIT      = 0 (0)
+00:00:03.204436   Pconfig - Enable PCONFIG                                = 0 (0)
+00:00:03.204436   EnclvExit - ENCLV exiting                               = 0 (0)
+00:00:03.204437   BusLockDetect - VMM Bus-Lock detection                  = 0 (0)
+00:00:03.204437   InstrTimeout - Instruction timeout                      = 0 (0)
+00:00:03.204438   LoadIwKeyExit - LOADIWKEY exiting                       = 0 (0)
+00:00:03.204438   HLAT - Hypervisor-managed linear-address translation    = 0 (0)
+00:00:03.204439   EptPagingWrite - EPT paging-write                       = 0 (0)
+00:00:03.204440   GstPagingVerify - Guest-paging verification             = 0 (0)
+00:00:03.204440   IpiVirt - IPI virtualization                            = 0 (0)
+00:00:03.204441   VirtSpecCtrl - Virtualize IA32_SPEC_CTRL                = 0 (0)
+00:00:03.204441   EntryLoadDebugCtls - Load debug controls on VM-entry    = 0 (0)
+00:00:03.204442   Ia32eModeGuest - IA-32e mode guest                      = 0 (0)
+00:00:03.204442   EntryLoadEferMsr - Load IA32_EFER MSR on VM-entry       = 0 (0)
+00:00:03.204443   EntryLoadPatMsr - Load IA32_PAT MSR on VM-entry         = 0 (0)
+00:00:03.204443   ExitSaveDebugCtls - Save debug controls on VM-exit      = 0 (0)
+00:00:03.204444   HostAddrSpaceSize - Host address-space size             = 0 (0)
+00:00:03.204444   ExitAckExtInt - Acknowledge interrupt on VM-exit        = 0 (0)
+00:00:03.204447   ExitSavePatMsr - Save IA32_PAT MSR on VM-exit           = 0 (0)
+00:00:03.204448   ExitLoadPatMsr - Load IA32_PAT MSR on VM-exit           = 0 (0)
+00:00:03.204448   ExitSaveEferMsr - Save IA32_EFER MSR on VM-exit         = 0 (0)
+00:00:03.204449   ExitLoadEferMsr - Load IA32_EFER MSR on VM-exit         = 0 (0)
+00:00:03.204449   SavePreemptTimer - Save VMX-preemption timer            = 0 (0)
+00:00:03.204450   SecondaryExitCtls - Secondary VM-exit controls          = 0 (0)
+00:00:03.204450   ExitSaveEferLma - Save IA32_EFER.LMA on VM-exit         = 0 (0)
+00:00:03.204451   IntelPt - Intel Processor Trace in VMX operation        = 0 (0)
+00:00:03.204451   VmwriteAll - VMWRITE to any supported VMCS field        = 0 (0)
+00:00:03.204452   EntryInjectSoftInt - Inject softint. with 0-len instr.  = 0 (0)
+00:00:03.204453 
+00:00:03.204453 ******************* End of VT-x features ********************
+00:00:03.204462 VMEmt: Halt method global1 (5) not available in driverless mode, using method1 (4) instead
+00:00:03.204516 Changing the VM state from 'CREATING' to 'CREATED'
+00:00:03.213029 Changing the VM state from 'CREATED' to 'POWERING_ON'
+00:00:03.213188 AIOMgr: Endpoints without assigned bandwidth groups:
+00:00:03.213202 AIOMgr:     /Users/dino/Documents/42Inception-of-Things/Inception-of-things/Inception-of-things.vdi
+00:00:03.213323 Changing the VM state from 'POWERING_ON' to 'RUNNING'
+00:00:03.213350 Console: Machine state changed to 'Running'
+00:00:03.216296 VMMDev: Guest Log: BIOS: VirtualBox 7.1.2
+00:00:03.216898 PCI: Setting up resources and interrupts
+00:00:03.222650 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:03.258487 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:03.269584 VMMDev: Guest Log: CPUID EDX: 0x178bfbff
+00:00:03.269927 PIIX3 ATA: Ctl#0: RESET, DevSel=0 AIOIf=0 CmdIf0=0x00 (-1 usec ago) CmdIf1=0x00 (-1 usec ago)
+00:00:03.270055 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:03.277907 AHCI#0: Reset the HBA
+00:00:03.277973 VD#0: Cancelling all active requests
+00:00:03.278195 AHCI#0: Port 0 reset
+00:00:03.278250 VD#0: Cancelling all active requests
+00:00:03.280894 VMMDev: Guest Log: BIOS: AHCI 0-P#0: PCHS=16383/16/63 LCHS=1024/255/63 0x0000000001800000 sectors
+00:00:03.365045 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:00:03.368572 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007fe36c547000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0 origin=0,0
+00:00:03.690538 GUI: UIMachineViewNormal::resendSizeHint: Restoring guest size-hint for screen 0 to 800x600
+00:00:03.728052 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:00:05.845980 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:05.846679 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0231
+00:00:05.847392 VMMDev: Guest Log: BIOS: Boot from Floppy 0 failed
+00:00:05.848786 VMMDev: Guest Log: BIOS: Boot : bseqnr=2, bootseq=0023
+00:00:05.849057 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:05.851243 VMMDev: Guest Log: BIOS: Booting from CD-ROM...
+00:00:06.058398 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007fe36c547000 w=640 h=480 bpp=24 cbLine=0x780 flags=0x0 origin=0,0
+00:00:09.249039 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:00:09.420728 VMMDev: Guest Log: BIOS: KBD: unsupported int 16h function 03
+00:00:09.421579 VMMDev: Guest Log: BIOS: AX=0305 BX=0000 CX=0000 DX=0000 
+00:00:09.424084 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=81
+00:00:09.425157 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=81
+00:00:09.426311 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=82
+00:00:09.427384 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=82
+00:00:09.428516 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=83
+00:00:09.430107 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=83
+00:00:09.431749 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=84
+00:00:09.432785 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=84
+00:00:09.433928 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=85
+00:00:09.435002 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=85
+00:00:09.436147 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=86
+00:00:09.437218 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=86
+00:00:09.438409 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=87
+00:00:09.439499 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=87
+00:00:09.441052 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=88
+00:00:09.442176 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=88
+00:00:09.443453 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=89
+00:00:09.444651 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=89
+00:00:09.445975 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=8a
+00:00:09.447178 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=8a
+00:00:09.448611 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=8b
+00:00:09.449626 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=8b
+00:00:09.450727 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=8c
+00:00:09.451779 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=8c
+00:00:09.452909 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=8d
+00:00:09.454033 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=8d
+00:00:09.455154 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=8e
+00:00:09.456203 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=8e
+00:00:09.457325 VMMDev: Guest Log: int13_harddisk_ext: function 41, unmapped device for ELDL=8f
+00:00:09.458371 VMMDev: Guest Log: int13_harddisk: function 02, unmapped device for ELDL=8f
+00:00:09.579247 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007fe36c547000 w=800 h=600 bpp=16 cbLine=0x640 flags=0x0 origin=0,0
+00:00:09.704851 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:09.919383 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:11.439845 GIM: KVM: VCPU  0: Enabled system-time struct. at 0x0000000020a01000 - u32TscScale=0xd5283b52 i8TscShift=-1 uVersion=2 fFlags=0x1 uTsc=0x498bdaf82 uVirtNanoTS=0x1e9e760ad TscKHz=2401982
+00:00:11.440312 TM: Host/VM is not suitable for using TSC mode 'RealTSCOffset', request to change TSC mode ignored
+00:00:11.518105 GIM: KVM: Enabled wall-clock struct. at 0x0000000020a00000 - u32Sec=1729068752 u32Nano=247015368 uVersion=2
+00:00:11.518422 PIT: mode=2 count=0x12a5 (4773) - 249.98 Hz (ch=0)
+00:00:11.520624 APIC0: Switched mode to x2APIC
+00:00:11.667707 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:00:11.887327 OHCI: Software reset
+00:00:13.341705 IEM: rdmsr(0xc0011029) -> #GP(0)
+00:00:13.862589 GCMInterceptedIOPortRead: Unknown vmware hypervisor call: rcx=0xa (cmd), rbx=0x0 (len/whatever), rsi=0x1 (input), rdi=0xffff99185e7e0800 (input), rdx=0x5658 (flags + chid) at 0010:ffffffffc070cbd9
+00:00:13.903147 EHCI: Hardware reset
+00:00:13.903840 EHCI: USB Operational
+00:00:13.953012 OHCI: USB Reset
+00:00:13.980912 EHCI: USB Suspended
+00:00:13.986059 AHCI#0: Reset the HBA
+00:00:13.986101 VD#0: Cancelling all active requests
+00:00:13.989024 AHCI#0: Port 0 reset
+00:00:13.990651 PIIX3 ATA: Ctl#0: RESET, DevSel=0 AIOIf=1 CmdIf0=0x00 (-1 usec ago) CmdIf1=0xa0 (-1 usec ago)
+00:00:13.990746 PIIX3 ATA: Ctl#0: finished processing RESET
+00:00:13.992063 VD#0: Cancelling all active requests
+00:00:14.006480 OHCI: Software reset
+00:00:14.006922 OHCI: USB Operational
+00:00:14.230413 AC97: Reset
+00:00:14.230461 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:00:14.230474 AC97: Record select to left=mic, right=mic
+00:00:14.230483 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:00:14.230495 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.230506 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.230516 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.230526 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.230536 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.230549 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.230559 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.230972 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.231003 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.231566 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.231590 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.231956 AC97: Reset
+00:00:14.231974 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:00:14.231984 AC97: Record select to left=mic, right=mic
+00:00:14.231992 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:00:14.232002 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.232012 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.232022 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.232031 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.232041 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.232050 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.232059 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.238410 Audio Mixer: Setting master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:00:14.238451 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.238465 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.238475 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239433 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:00:14.239471 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239484 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239495 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239639 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:00:14.239661 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239672 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239682 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239834 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:00:14.239857 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239874 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.239886 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240006 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: 83 83 83 83 83 83 83 83 83 83 83 83
+00:00:14.240033 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240048 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240058 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240271 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: bf bf bf bf bf bf bf bf bf bf bf bf
+00:00:14.240291 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240302 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240312 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240605 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: 83 83 83 83 83 83 83 83 83 83 83 83
+00:00:14.240626 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240637 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.240652 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.248377 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.248558 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.248583 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.248991 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.249016 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.249163 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.249183 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.249334 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.249354 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.249457 AC97: Record select to left=mic, right=mic
+00:00:14.249589 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:14.249640 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340621 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: e7 83 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.340678 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340694 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340707 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340791 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.340814 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340826 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340836 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340929 Audio Mixer: Setting master volume of 'AC'97 Mixer' -- channel volumes: e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.340949 Audio Mixer: Setting sink 'AC'97 Mixer/Line In' -- channel volumes: e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.340961 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.340972 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.341057 Audio Mixer: Setting master volume of 'AC'97 Mixer' -- channel volumes: e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.341077 Audio Mixer: Setting sink 'AC'97 Mixer/Line In' -- channel volumes: e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.341088 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.341098 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.377874 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.378112 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.378327 Audio Mixer: Setting sink 'AC'97 Mixer/PCM Output' -- channel volumes: e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.380421 Audio Mixer: Setting sink 'AC'97 Mixer/PCM Output' -- channel volumes: e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7 e7
+00:00:15.603881 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:15.604126 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:00:58.689958 NAT: Link up
+00:03:07.456659 AIOMgr: Host limits number of active IO requests to 16. Expect a performance impact.
+00:05:03.518705 TM: Giving up catch-up attempt at a 60 000 584 465 ns lag; new total: 60 000 584 465 ns
+00:06:39.209027 TM: Giving up catch-up attempt at a 60 007 660 899 ns lag; new total: 120 008 245 364 ns
+00:08:04.438797 TM: Giving up catch-up attempt at a 60 008 057 049 ns lag; new total: 180 016 302 413 ns
+00:10:30.798283 TM: Giving up catch-up attempt at a 60 000 029 158 ns lag; new total: 240 016 331 571 ns
+00:13:39.288704 TM: Giving up catch-up attempt at a 60 003 735 614 ns lag; new total: 300 020 067 185 ns
+00:15:30.658979 TM: Giving up catch-up attempt at a 60 004 929 438 ns lag; new total: 360 024 996 623 ns
+00:16:57.198959 TM: Giving up catch-up attempt at a 60 005 767 673 ns lag; new total: 420 030 764 296 ns
+00:17:56.271344 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:18:24.831515 OHCI: Software reset
+00:18:24.941040 ACPI: Reset initiated by ACPI
+00:18:24.941187 Changing the VM state from 'RUNNING' to 'RESETTING'
+00:18:24.942257 GIM: KVM: Resetting MSRs
+00:18:24.950795 PIT: mode=3 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:18:24.991365 AHCI#0: Reset the HBA
+00:18:24.991499 VD#0: Cancelling all active requests
+00:18:24.991720 PIIX3 ATA: Ctl#0: finished processing RESET
+00:18:24.991825 AC97: Reset
+00:18:24.991862 PIIX3 ATA: Ctl#1: finished processing RESET
+00:18:24.991883 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:18:24.991895 AC97: Record select to left=mic, right=mic
+00:18:24.991905 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:18:24.991932 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:18:24.991945 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:18:24.991956 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:18:24.991966 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:18:24.991976 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:18:24.991985 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:18:24.991995 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:18:24.992118 PDMR3Reset: after    49 ms, 1 loops: 1 async tasks - piix3ide/0
+00:18:24.992607 TM: Aborting catch-up attempt on reset with a 42 437 453 753 ns lag on reset; new total: 462 468 218 049 ns
+00:18:25.014730 VMMDevNotifyGuest: fAddEvents=0x1 ignored because enmVMState=8
+00:18:25.184762 Changing the VM state from 'RESETTING' to 'RUNNING'
+00:18:25.184862 OHCI: root hub reset completed with VINF_SUCCESS
+00:18:25.185990 VMMDev: Guest Log: BIOS: VirtualBox 7.1.2
+00:18:25.187536 PCI: Setting up resources and interrupts
+00:18:25.195003 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:18:25.229299 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:18:25.249398 VMMDev: Guest Log: CPUID EDX: 0x178bfbff
+00:18:25.249662 PIIX3 ATA: Ctl#0: RESET, DevSel=0 AIOIf=0 CmdIf0=0x00 (-1 usec ago) CmdIf1=0xa0 (-1 usec ago)
+00:18:25.249814 PIIX3 ATA: Ctl#0: finished processing RESET
+00:18:25.270629 AHCI#0: Reset the HBA
+00:18:25.270685 VD#0: Cancelling all active requests
+00:18:25.270956 AHCI#0: Port 0 reset
+00:18:25.271408 VD#0: Cancelling all active requests
+00:18:25.274222 VMMDev: Guest Log: BIOS: AHCI 0-P#0: PCHS=16383/16/63 LCHS=1024/255/63 0x0000000001800000 sectors
+00:18:25.365782 PIT: mode=2 count=0x48d3 (18643) - 64.00 Hz (ch=0)
+00:18:25.368272 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007fe36c547000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0 origin=0,0
+00:18:25.705930 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:18:27.761843 PIT: mode=2 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:18:27.762221 VMMDev: Guest Log: BIOS: Boot : bseqnr=1, bootseq=0231
+00:18:27.762532 VMMDev: Guest Log: BIOS: Boot from Floppy 0 failed
+00:18:27.762841 VMMDev: Guest Log: BIOS: Boot : bseqnr=2, bootseq=0023
+00:18:27.764565 VMMDev: Guest Log: BIOS: CDROM boot failure code : 0003
+00:18:27.764991 VMMDev: Guest Log: BIOS: Boot from CD-ROM failed
+00:18:27.765546 VMMDev: Guest Log: BIOS: Boot : bseqnr=3, bootseq=0002
+00:18:27.767790 VMMDev: Guest Log: BIOS: Booting from Hard Disk...
+00:18:27.769129 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:18:28.109823 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:18:28.968486 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007fe36c547000 w=640 h=480 bpp=32 cbLine=0xA00 flags=0x0 origin=0,0
+00:18:29.310173 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:18:36.189191 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=0000000000000000 w=720 h=400 bpp=0 cbLine=0x0 flags=0x0 origin=0,0
+00:18:36.512603 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:18:37.489434 GIM: KVM: VCPU  0: Enabled system-time struct. at 0x000000003aa01000 - u32TscScale=0xd5283b52 i8TscShift=-1 uVersion=2 fFlags=0x1 uTsc=0x26ea66764fc uVirtNanoTS=0x103392728ac TscKHz=2401982
+00:18:37.489488 TM: Host/VM is not suitable for using TSC mode 'RealTSCOffset', request to change TSC mode ignored
+00:18:37.542152 GIM: KVM: Enabled wall-clock struct. at 0x000000003aa00000 - u32Sec=1729069858 u32Nano=292239311 uVersion=2
+00:18:37.585380 PIT: mode=2 count=0x12a5 (4773) - 249.98 Hz (ch=0)
+00:18:37.587642 APIC0: Switched mode to x2APIC
+00:18:37.742445 PIT: mode=0 count=0x10000 (65536) - 18.20 Hz (ch=0)
+00:18:37.939459 OHCI: Software reset
+00:18:38.296726 IEM: rdmsr(0xc0011029) -> #GP(0)
+00:18:38.888246 GCMInterceptedIOPortRead: Unknown vmware hypervisor call: rcx=0xa (cmd), rbx=0x0 (len/whatever), rsi=0x1 (input), rdi=0xffff9393f8788200 (input), rdx=0x5658 (flags + chid) at 0010:ffffffffc0436bd9
+00:18:38.979273 EHCI: Hardware reset
+00:18:38.979889 EHCI: USB Operational
+00:18:39.003371 OHCI: USB Reset
+00:18:39.009111 AHCI#0: Reset the HBA
+00:18:39.009147 VD#0: Cancelling all active requests
+00:18:39.031032 EHCI: USB Suspended
+00:18:39.032558 AHCI#0: Port 0 reset
+00:18:39.034148 PIIX3 ATA: Ctl#0: RESET, DevSel=0 AIOIf=1 CmdIf0=0x00 (-1 usec ago) CmdIf1=0xa0 (-1 usec ago)
+00:18:39.034237 PIIX3 ATA: Ctl#0: finished processing RESET
+00:18:39.045199 VD#0: Cancelling all active requests
+00:18:39.063508 OHCI: Software reset
+00:18:39.063977 OHCI: USB Operational
+00:18:41.718778 NAT: Link up
+00:20:02.455263 VMMDev: Guest Log: vboxguest: host-version: 7.1.2r164945 0x8000000f
+00:20:02.455910 VMMDev: Guest Additions information report: Version 6.0.0 r127566 '6.0.0'
+00:20:02.456013 VMMDev: Guest Additions information report: Interface = 0x00010004 osType = 0x00053100 (Linux >= 2.6, 64-bit)
+00:20:02.456233 VMMDev: Guest Additions capability report: (0x0 -> 0x0) seamless: no, hostWindowMapping: no, graphics: no
+00:20:02.456299 GUI: UISession::sltAdditionsChange: GA state doesn't really changed, still notifying listeners.
+00:20:02.456329 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:20:02.456355 VMMDev: vmmDevReqHandler_HeartbeatConfigure: No change (fHeartbeatActive=false)
+00:20:02.456380 GUI: UISession::sltAdditionsChange: GA state doesn't really changed, still notifying listeners.
+00:20:02.456398 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:20:02.456408 VMMDev: Heartbeat flatline timer set to trigger after 4 000 000 000 ns
+00:20:02.511240 VMMDev: Guest Log: vbg_heartbeat_init: Setting up heartbeat to trigger every 2000 milliseconds
+00:20:02.511430 GUI: UISession::sltAdditionsChange: GA state really changed, notifying listeners.
+00:20:02.511538 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:20:02.511553 GUI: UIMachineLogicNormal::sltCheckForRequestedVisualStateType: Requested-state=1, Machine-state=6
+00:20:02.895297 Enabling different vbva mode
+00:20:02.950042 AC97: Reset
+00:20:02.950076 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:20:02.950089 AC97: Record select to left=mic, right=mic
+00:20:02.950099 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:20:02.950111 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950121 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950131 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950141 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950150 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950160 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950170 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950511 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950531 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950822 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.950842 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.951189 AC97: Reset
+00:20:02.951207 AC97: Mixer reset (EAID=0x809, EACS=0x9)
+00:20:02.951218 AC97: Record select to left=mic, right=mic
+00:20:02.951228 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:20:02.951239 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.951250 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.951259 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.951269 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.951278 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.951288 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.951297 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.957676 Audio Mixer: Setting master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:20:02.957707 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.957721 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.957732 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.957888 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:20:02.957908 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.957920 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.957931 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958087 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:20:02.958108 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958119 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958128 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958288 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: ff ff ff ff ff ff ff ff ff ff ff ff
+00:20:02.958307 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958318 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958328 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958401 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: 83 83 83 83 83 83 83 83 83 83 83 83
+00:20:02.958420 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958431 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958440 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958676 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: bf bf bf bf bf bf bf bf bf bf bf bf
+00:20:02.958696 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958706 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.958716 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.959036 Audio Mixer: MUTING master volume of 'AC'97 Mixer' -- channel volumes: 83 83 83 83 83 83 83 83 83 83 83 83
+00:20:02.959057 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.959069 Audio Mixer: MUTING sink 'AC'97 Mixer/Microphone In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:02.959079 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.002866 Display::i_handleDisplayResize: uScreenId=0 pvVRAM=00007fe36c547000 w=1280 h=800 bpp=32 cbLine=0x1400 flags=0x1 origin=0,0
+00:20:03.066389 Audio Mixer: MUTING sink 'AC'97 Mixer/PCM Output' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.066573 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.066597 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.066741 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.066762 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.066910 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.066930 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.067080 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.067100 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.067174 AC97: Record select to left=mic, right=mic
+00:20:03.067250 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.067268 Audio Mixer: MUTING sink 'AC'97 Mixer/Line In' -- channel volumes: 00 00 00 00 00 00 00 00 00 00 00 00
+00:20:03.491436 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:21:12.156972 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:51:56.271003 GUI: UIMediumEnumerator: Medium-enumeration finished!
+01:28:43.609616 Pausing VM execution, reason 'HostSuspend'
+01:28:43.716133 Changing the VM state from 'RUNNING' to 'SUSPENDING'
+01:28:43.722245 AIOMgr: Endpoint for file '/Users/dino/Documents/42Inception-of-Things/Inception-of-things/Inception-of-things.vdi' (flags 000c0781) created successfully
+01:28:43.725670 PDMR3Suspend: 9 433 198 ns run time
+01:28:43.725901 Changing the VM state from 'SUSPENDING' to 'SUSPENDED'
+01:28:43.726623 Console: Machine state changed to 'Paused'
+01:29:59.547394 Resuming VM execution, reason 'HostResume'
+01:29:59.547835 Changing the VM state from 'SUSPENDED' to 'RESUMING'
+01:29:59.548343 AIOMgr: Endpoint for file '/Users/dino/Documents/42Inception-of-Things/Inception-of-things/Inception-of-things.vdi' (flags 000c0723) created successfully
+01:29:59.551651 Changing the VM state from 'RESUMING' to 'RUNNING'
+01:29:59.551700 Console: Machine state changed to 'Running'
